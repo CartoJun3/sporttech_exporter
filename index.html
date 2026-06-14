@@ -469,6 +469,7 @@
             ath.results.forEach(r => {
               foundResults.push({
                 event_title: detail.title,
+                event_date: detail.date,
                 competition_title: r.competition_title,
                 rank: r.rank,
                 total_score: r.total_score,
@@ -484,6 +485,41 @@
         clearAthleteProfile();
         return;
       }
+
+      // Sort chronologically (oldest to newest) to calculate progression correctly
+      foundResults.sort((a, b) => {
+        const dateA = new Date(a.event_date || '1970-01-01');
+        const dateB = new Date(b.event_date || '1970-01-01');
+        return dateA - dateB;
+      });
+
+      // Track progression per discipline
+      let peaks = { TRP: 0, DMT: 0, TUM: 0, SYN: 0, OTHER: 0 };
+      
+      foundResults.forEach(r => {
+        const discipline = getDiscipline(r.competition_title);
+        const levelWeight = getLevelWeight(r.competition_title);
+        
+        r.discipline = discipline;
+        r.levelWeight = levelWeight;
+        r.stepUp = false;
+        
+        if (levelWeight > 0) {
+          if (peaks[discipline] === 0) {
+            peaks[discipline] = levelWeight;
+          } else if (levelWeight > peaks[discipline]) {
+            r.stepUp = true;
+            peaks[discipline] = levelWeight;
+          }
+        }
+      });
+
+      // Sort newest to oldest for visual rendering (most recent at the top)
+      foundResults.sort((a, b) => {
+        const dateA = new Date(a.event_date || '1970-01-01');
+        const dateB = new Date(b.event_date || '1970-01-01');
+        return dateB - dateA;
+      });
       
       profName.textContent = actualName;
       profClub.innerHTML = `<i class="fa-solid fa-building-flag mr-1.5"></i>${foundClub}`;
@@ -492,15 +528,24 @@
       athleteTableBody.innerHTML = '';
       foundResults.forEach(r => {
         const row = document.createElement('tr');
-        row.className = "hover:bg-gray-700/30 transition-colors";
+        
+        if (r.stepUp) {
+          row.className = "bg-purple-900/20 border-l-4 border-purple-500 hover:bg-purple-900/30 transition-all duration-150";
+        } else {
+          row.className = "hover:bg-gray-700/30 transition-colors";
+        }
         
         const routinesStr = r.routine_scores.length > 0 
           ? r.routine_scores.map(s => `<span class="bg-gray-900 border border-gray-700 px-2 py-0.5 rounded text-sm font-mono font-medium">${s.toFixed(3)}</span>`).join(' ')
           : '<span class="text-gray-500 italic text-sm">N/A</span>';
           
+        const badgeStr = r.stepUp 
+          ? ` <span class="ml-2 inline-flex items-center bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-[10px] font-bold px-1.5 py-0.5 rounded tracking-wide uppercase select-none"><i class="fa-solid fa-circle-up mr-1 text-[9px]"></i>Step Up</span>` 
+          : '';
+          
         row.innerHTML = `
           <td class="px-6 py-4 font-medium text-gray-400 text-xs">${r.event_title}</td>
-          <td class="px-6 py-4 font-semibold text-purple-300">${r.competition_title}</td>
+          <td class="px-6 py-4 font-semibold text-purple-300 flex items-center flex-wrap">${r.competition_title}${badgeStr}</td>
           <td class="px-6 py-4 font-bold text-white">${r.rank}</td>
           <td class="px-6 py-4 flex flex-wrap gap-1.5 items-center">${routinesStr}</td>
           <td class="px-6 py-4 font-mono font-bold text-emerald-400">${r.total_score.toFixed(3)}</td>
@@ -509,6 +554,56 @@
       });
       
       athleteProfile.classList.remove('hidden');
+    }
+
+    function getLevelWeight(competitionTitle) {
+      const title = competitionTitle.toUpperCase();
+      
+      // 1. Try regex first to parse numbered levels (handles Level X and Level XA dynamically)
+      const match = title.match(/LEVEL\s+(\d+)([A-Z]?)/);
+      if (match) {
+        let val = parseInt(match[1], 10);
+        if (match[2] === 'A') {
+          val += 0.5;
+        } else if (match[2]) {
+          val += 0.5;
+        }
+        return val;
+      }
+
+      // 2. Fall back to non-numbered levels dictionary
+      const levelWeights = {
+        "YOUTH": 11,
+        "JUNIOR": 12,
+        "SENIOR": 13,
+        "ELITE": 14,
+        "INTERNATIONAL": 15
+      };
+
+      for (const [key, weight] of Object.entries(levelWeights)) {
+        if (title.includes(key)) {
+          return weight;
+        }
+      }
+      
+      return 0;
+    }
+
+    function getDiscipline(competitionTitle) {
+      const title = competitionTitle.toUpperCase();
+      if (title.includes('TRP') || title.includes('TRAMPOLINE')) {
+        return 'TRP';
+      }
+      if (title.includes('DMT') || title.includes('DOUBLE MINI') || title.includes('DOUBLE-MINI')) {
+        return 'DMT';
+      }
+      if (title.includes('TUM') || title.includes('TUMBLING')) {
+        return 'TUM';
+      }
+      if (title.includes('SYN') || title.includes('SYNCHRO')) {
+        return 'SYN';
+      }
+      return 'OTHER';
     }
 
     function clearAthleteProfile() {
