@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sporttech Results Viewer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1f2937;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #4b5563;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #6b7280;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen font-sans">
+  
+  <!-- Header -->
+  <header class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="bg-purple-600 text-white p-2 rounded-lg shadow-md">
+          <i class="fa-solid fa-file-invoice-with-usdollar fa-lg"></i>
+          <i class="fa-solid fa-person-running fa-lg"></i>
+        </div>
+        <div>
+          <h1 class="text-xl font-bold tracking-tight text-white">Sporttech <span class="text-purple-400">Results Hub</span></h1>
+          <p class="text-xs text-gray-400">Local Analytics & Statistics Viewer</p>
+        </div>
+      </div>
+      <div class="text-xs text-gray-400 bg-gray-900 px-3 py-1.5 rounded-full border border-gray-700">
+        <i class="fa-solid fa-clock mr-1 text-purple-400"></i> Local Server Active
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    
+    <!-- Controls & Selection -->
+    <section class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      
+      <!-- Event Select Card -->
+      <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-md lg:col-span-1 flex flex-col justify-between">
+        <div>
+          <label for="eventSelect" class="block text-sm font-semibold text-gray-300 mb-2">
+            <i class="fa-solid fa-trophy mr-1.5 text-purple-400"></i> Select Event / Tournament
+          </label>
+          <select id="eventSelect" class="w-full bg-gray-900 border border-gray-700 rounded-lg px-3 py-2.5 text-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all">
+            <option value="">-- Loading Events --</option>
+          </select>
+        </div>
+        
+        <div id="eventMeta" class="mt-4 pt-4 border-t border-gray-700 text-sm space-y-2 hidden">
+          <div><span class="text-gray-400">ID:</span> <span id="metaId" class="font-mono text-xs text-purple-300"></span></div>
+          <div><span class="text-gray-400">Date:</span> <span id="metaDate" class="text-gray-200"></span></div>
+        </div>
+      </div>
+
+      <!-- Overview Stats Card -->
+      <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-md lg:col-span-2 grid grid-cols-3 gap-4">
+        <div class="flex flex-col justify-center items-center p-4 bg-gray-900/50 rounded-lg border border-gray-700/50 text-center">
+          <span class="text-xs font-semibold uppercase tracking-wider text-purple-400 mb-1">Competitions</span>
+          <span id="statComps" class="text-3xl font-extrabold text-white">0</span>
+        </div>
+        <div class="flex flex-col justify-center items-center p-4 bg-gray-900/50 rounded-lg border border-gray-700/50 text-center">
+          <span class="text-xs font-semibold uppercase tracking-wider text-purple-400 mb-1">Athletes</span>
+          <span id="statAthletes" class="text-3xl font-extrabold text-white">0</span>
+        </div>
+        <div class="flex flex-col justify-center items-center p-4 bg-gray-900/50 rounded-lg border border-gray-700/50 text-center">
+          <span class="text-xs font-semibold uppercase tracking-wider text-purple-400 mb-1">Clubs Represented</span>
+          <span id="statClubs" class="text-3xl font-extrabold text-white">0</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Empty State Instruction -->
+    <section id="emptyState" class="bg-gray-800 rounded-xl border border-gray-700 p-12 text-center shadow-lg">
+      <div class="max-w-md mx-auto space-y-4">
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-purple-900/50 border border-purple-500 text-purple-400 mb-2">
+          <i class="fa-solid fa-cloud-arrow-down fa-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-white">No Competitions Imported</h3>
+        <p class="text-gray-400 text-sm">
+          Welcome! It looks like you haven't imported any event results yet, or the data has not finished loading.
+        </p>
+        <div class="bg-gray-950 p-4 rounded-lg text-left font-mono text-xs text-purple-300 border border-gray-800">
+          <span class="text-gray-500"># Import a competition event via CLI</span><br>
+          python exporter.py <span class="text-emerald-400">abe4589c-87cd-41cc-5176-46a06287aa6b</span>
+        </div>
+        <p class="text-xs text-gray-500">
+          Run the exporter command to fetch sporttech results, then refresh this page to inspect details.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Results Area -->
+    <section id="resultsArea" class="space-y-6 hidden">
+      
+      <!-- Navigation Tabs -->
+      <div class="flex border-b border-gray-700">
+        <button id="tabComp" class="px-6 py-3 border-b-2 border-purple-500 text-purple-400 font-bold text-sm tracking-wide transition-all focus:outline-none flex items-center space-x-2">
+          <i class="fa-solid fa-list-ol"></i>
+          <span>Browse by Competition</span>
+        </button>
+        <button id="tabAthlete" class="px-6 py-3 border-b-2 border-transparent text-gray-400 hover:text-gray-200 hover:border-gray-600 font-bold text-sm tracking-wide transition-all focus:outline-none flex items-center space-x-2">
+          <i class="fa-solid fa-user"></i>
+          <span>Analyze Specific Athlete</span>
+        </button>
+      </div>
+
+      <!-- View 1: Browse by Competition -->
+      <div id="viewComp" class="space-y-6">
+        
+        <!-- Filter Controls -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-gray-800 p-4 rounded-xl border border-gray-700 shadow-sm">
+          <div>
+            <label for="compSelect" class="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1.5">Select Competition Division</label>
+            <select id="compSelect" class="w-full bg-gray-900 border border-gray-700 rounded-lg px-3 py-2 text-gray-200 focus:outline-none focus:ring-1 focus:ring-purple-500">
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+          <div>
+            <label for="compSearch" class="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1.5">Search Athlete or Club</label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
+                <i class="fa-solid fa-magnifying-glass text-sm"></i>
+              </span>
+              <input type="text" id="compSearch" placeholder="Type name or club to filter..." class="w-full bg-gray-900 border border-gray-700 rounded-lg pl-9 pr-3 py-2 text-gray-200 focus:outline-none focus:ring-1 focus:ring-purple-500 placeholder-gray-500">
+            </div>
+          </div>
+        </div>
+
+        <!-- Table -->
+        <div class="bg-gray-800 rounded-xl border border-gray-700 shadow-lg overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm text-gray-300">
+              <thead class="bg-gray-900 text-xs text-gray-400 uppercase tracking-wider border-b border-gray-700 select-none">
+                <tr>
+                  <th scope="col" class="px-6 py-4 font-bold text-purple-400 cursor-pointer hover:bg-gray-850" onclick="sortTable('viewCompTable', 0)">Rank <i class="fa-solid fa-sort ml-1"></i></th>
+                  <th scope="col" class="px-6 py-4 font-bold cursor-pointer hover:bg-gray-850" onclick="sortTable('viewCompTable', 1)">Athlete Name <i class="fa-solid fa-sort ml-1"></i></th>
+                  <th scope="col" class="px-6 py-4 font-bold cursor-pointer hover:bg-gray-850" onclick="sortTable('viewCompTable', 2)">Representing Club <i class="fa-solid fa-sort ml-1"></i></th>
+                  <th scope="col" class="px-6 py-4 font-bold">Routine Scores</th>
+                  <th scope="col" class="px-6 py-4 font-bold cursor-pointer hover:bg-gray-850" onclick="sortTable('viewCompTable', 4)">Total Score <i class="fa-solid fa-sort ml-1"></i></th>
+                </tr>
+              </thead>
+              <tbody id="compTableBody" class="divide-y divide-gray-700/60">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+          <div id="compNoData" class="p-8 text-center text-gray-500 hidden">
+            <i class="fa-solid fa-folder-open fa-2xl mb-2 text-gray-650 block"></i> No results found matching the filters.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- View 2: Analyze Specific Athlete -->
+      <div id="viewAthlete" class="space-y-6 hidden">
+        
+        <!-- Search & Autocomplete Input -->
+        <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-md max-w-2xl mx-auto space-y-4">
+          <div>
+            <label for="athleteSearch" class="block text-sm font-semibold text-gray-300 mb-2">
+              <i class="fa-solid fa-user-tag text-purple-400 mr-1"></i> Search Athlete Name
+            </label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
+                <i class="fa-solid fa-circle-user text-lg"></i>
+              </span>
+              <input type="text" id="athleteSearch" list="athleteList" placeholder="Start typing gymnast's name..." class="w-full bg-gray-900 border border-gray-700 rounded-lg pl-10 pr-3 py-2.5 text-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all">
+              <datalist id="athleteList">
+                <!-- Dynamically populated -->
+              </datalist>
+            </div>
+          </div>
+        </div>
+
+        <!-- Athlete Details & Performance History -->
+        <div id="athleteProfile" class="hidden space-y-6">
+          <div class="bg-gradient-to-r from-purple-900/40 to-blue-900/20 border border-purple-500/30 p-6 rounded-xl shadow-lg flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex items-center space-x-4">
+              <div class="w-14 h-14 bg-purple-600/30 text-purple-300 rounded-full flex items-center justify-center border border-purple-500/40">
+                <i class="fa-solid fa-user-ninja fa-2xl"></i>
+              </div>
+              <div>
+                <h2 id="profName" class="text-2xl font-black text-white">Libby BRODSKY</h2>
+                <p id="profClub" class="text-sm text-purple-300 flex items-center"><i class="fa-solid fa-building-flag mr-1.5"></i>Robertson Gymnastics Club</p>
+              </div>
+            </div>
+            <div class="text-right">
+              <span class="text-xs font-semibold text-gray-400 uppercase tracking-widest block">Total Competitions Entered</span>
+              <span id="profCount" class="text-3xl font-extrabold text-white">0</span>
+            </div>
+          </div>
+
+          <!-- Athlete Results Table -->
+          <div class="bg-gray-800 rounded-xl border border-gray-700 shadow-lg overflow-hidden">
+            <div class="overflow-x-auto">
+              <table id="viewAthleteTable" class="w-full text-left text-sm text-gray-300">
+                <thead class="bg-gray-900 text-xs text-gray-400 uppercase tracking-wider border-b border-gray-700 select-none">
+                  <tr>
+                    <th scope="col" class="px-6 py-4 font-bold cursor-pointer hover:bg-gray-850" onclick="sortTable('viewAthleteTable', 0)">Event / Tournament <i class="fa-solid fa-sort ml-1"></i></th>
+                    <th scope="col" class="px-6 py-4 font-bold cursor-pointer hover:bg-gray-850" onclick="sortTable('viewAthleteTable', 1)">Competition Division <i class="fa-solid fa-sort ml-1"></i></th>
+                    <th scope="col" class="px-6 py-4 font-bold cursor-pointer hover:bg-gray-850" onclick="sortTable('viewAthleteTable', 2)">Final Rank <i class="fa-solid fa-sort ml-1"></i></th>
+                    <th scope="col" class="px-6 py-4 font-bold">Routine Scores</th>
+                    <th scope="col" class="px-6 py-4 font-bold cursor-pointer hover:bg-gray-850" onclick="sortTable('viewAthleteTable', 4)">Total Score <i class="fa-solid fa-sort ml-1"></i></th>
+                  </tr>
+                </thead>
+                <tbody id="athleteTableBody" class="divide-y divide-gray-700/60">
+                  <!-- Dynamically populated -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="bg-gray-950 border-t border-gray-800 text-gray-500 text-xs py-8 mt-16">
+    <div class="max-w-7xl mx-auto px-4 text-center space-y-2">
+      <p class="font-medium text-gray-400">Sporttech Results Viewer Engine</p>
+      <p>Data is parsed from Sporttech's official bulk-stage APIs and saved in local JSON datasets.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Global state
+    let loadedEvents = [];
+    let currentEventData = null;
+    let allEventsDetails = []; // Detailed data for all imported events
+    let sortDirections = {};
+
+    // DOM Elements
+    const eventSelect = document.getElementById('eventSelect');
+    const eventMeta = document.getElementById('eventMeta');
+    const metaId = document.getElementById('metaId');
+    const metaDate = document.getElementById('metaDate');
+    
+    const statComps = document.getElementById('statComps');
+    const statAthletes = document.getElementById('statAthletes');
+    const statClubs = document.getElementById('statClubs');
+    
+    const emptyState = document.getElementById('emptyState');
+    const resultsArea = document.getElementById('resultsArea');
+    
+    const tabComp = document.getElementById('tabComp');
+    const tabAthlete = document.getElementById('tabAthlete');
+    
+    const viewComp = document.getElementById('viewComp');
+    const viewAthlete = document.getElementById('viewAthlete');
+    
+    const compSelect = document.getElementById('compSelect');
+    const compSearch = document.getElementById('compSearch');
+    const compTableBody = document.getElementById('compTableBody');
+    const compNoData = document.getElementById('compNoData');
+    
+    const athleteSearch = document.getElementById('athleteSearch');
+    const athleteList = document.getElementById('athleteList');
+    const athleteProfile = document.getElementById('athleteProfile');
+    const profName = document.getElementById('profName');
+    const profClub = document.getElementById('profClub');
+    const profCount = document.getElementById('profCount');
+    const athleteTableBody = document.getElementById('athleteTableBody');
+
+    // Init App
+    window.addEventListener('DOMContentLoaded', async () => {
+      await fetchEvents();
+      setupEventListeners();
+    });
+
+    // Fetch master list of events and their details
+    async function fetchEvents() {
+      try {
+        const response = await fetch('/data/events.json');
+        if (!response.ok) throw new Error('No events.json database found');
+        loadedEvents = await response.json();
+        
+        if (loadedEvents.length > 0) {
+          // Fetch detailed JSON for all events in parallel
+          const fetchPromises = loadedEvents.map(async (ev) => {
+            try {
+              const res = await fetch(`/data/${ev.event_id}.json`);
+              if (res.ok) {
+                return await res.json();
+              }
+            } catch (err) {
+              console.warn(`Failed to prefetch detail for event ${ev.event_id}`, err);
+            }
+            return null;
+          });
+          
+          allEventsDetails = (await Promise.all(fetchPromises)).filter(d => d !== null);
+
+          // Populate Event selector
+          eventSelect.innerHTML = '<option value="">-- Choose an Event --</option>';
+          loadedEvents.forEach(ev => {
+            const option = document.createElement('option');
+            option.value = ev.event_id;
+            const cleanDate = ev.date ? ev.date.split('T')[0] : 'N/A';
+            option.textContent = `${ev.title} (${cleanDate})`;
+            eventSelect.appendChild(option);
+          });
+          
+          // Preselect first event
+          eventSelect.value = loadedEvents[0].event_id;
+          await selectEvent(loadedEvents[0].event_id);
+        } else {
+          showEmptyState();
+        }
+      } catch (err) {
+        console.warn(err);
+        showEmptyState();
+      }
+    }
+
+    // Select and load specific event data
+    async function selectEvent(eventId) {
+      if (!eventId) {
+        showEmptyState();
+        return;
+      }
+      
+      try {
+        currentEventData = allEventsDetails.find(d => d.event_id === eventId);
+        if (!currentEventData) {
+          const response = await fetch(`/data/${eventId}.json`);
+          if (!response.ok) throw new Error('Could not retrieve event detail JSON file');
+          currentEventData = await response.json();
+        }
+        
+        // Populate metadata
+        eventMeta.classList.remove('hidden');
+        metaId.textContent = currentEventData.event_id;
+        metaDate.textContent = currentEventData.date ? currentEventData.date.split('T')[0] : 'N/A';
+        
+        // Calculate and populate stats
+        const compsKeys = Object.keys(currentEventData.competitions || {});
+        const athletesKeys = Object.keys(currentEventData.athletes || {});
+        
+        const clubsSet = new Set();
+        Object.values(currentEventData.athletes || {}).forEach(ath => {
+          if (ath.club) clubsSet.add(ath.club);
+        });
+        
+        statComps.textContent = compsKeys.length;
+        statAthletes.textContent = athletesKeys.length;
+        statClubs.textContent = clubsSet.size;
+        
+        // Populate Competitions dropdown
+        compSelect.innerHTML = '';
+        compsKeys.forEach(cid => {
+          const comp = currentEventData.competitions[cid];
+          const option = document.createElement('option');
+          option.value = cid;
+          option.textContent = comp.title;
+          compSelect.appendChild(option);
+        });
+        
+        // Populate Athlete search autocomplete datalist with unique names from ALL events
+        athleteList.innerHTML = '';
+        const allAthletesNames = new Set();
+        allEventsDetails.forEach(detail => {
+          Object.values(detail.athletes).forEach(ath => {
+            if (ath.name) allAthletesNames.add(ath.name);
+          });
+        });
+        
+        const sortedUniqueAthletes = Array.from(allAthletesNames).sort((a, b) => a.localeCompare(b));
+        sortedUniqueAthletes.forEach(name => {
+          const option = document.createElement('option');
+          option.value = name;
+          athleteList.appendChild(option);
+        });
+        
+        // Toggle Visibility
+        emptyState.classList.add('hidden');
+        resultsArea.classList.remove('hidden');
+        
+        // Render default views
+        renderCompetitionTable();
+        athleteSearch.value = '';
+        clearAthleteProfile();
+      } catch (err) {
+        console.error(err);
+        alert('Failed to load event detailed records. Please check the logs.');
+      }
+    }
+
+    // Render competition view table
+    function renderCompetitionTable() {
+      if (!currentEventData) return;
+      const compId = compSelect.value;
+      if (!compId) return;
+      
+      const comp = currentEventData.competitions[compId];
+      if (!comp) return;
+      
+      const filterText = compSearch.value.trim().toLowerCase();
+      compTableBody.innerHTML = '';
+      
+      let matchCount = 0;
+      
+      comp.results.forEach(res => {
+        const nameMatch = res.athlete_name.toLowerCase().includes(filterText);
+        const clubMatch = res.club.toLowerCase().includes(filterText);
+        
+        if (!filterText || nameMatch || clubMatch) {
+          matchCount++;
+          const row = document.createElement('tr');
+          row.className = "hover:bg-gray-700/30 transition-colors";
+          
+          const routinesStr = res.routine_scores.length > 0 
+            ? res.routine_scores.map(s => `<span class="bg-gray-900 border border-gray-700 px-2 py-0.5 rounded text-xs font-mono font-medium">${s.toFixed(3)}</span>`).join(' ')
+            : '<span class="text-gray-500 italic text-xs">N/A</span>';
+            
+          row.innerHTML = `
+            <td class="px-6 py-4 font-bold text-white">${res.rank}</td>
+            <td class="px-6 py-4 font-semibold text-purple-300">${res.athlete_name}</td>
+            <td class="px-6 py-4 text-gray-400 text-xs">${res.club}</td>
+            <td class="px-6 py-4 flex flex-wrap gap-1.5 items-center">${routinesStr}</td>
+            <td class="px-6 py-4 font-mono font-bold text-emerald-400">${res.total_score.toFixed(3)}</td>
+          `;
+          compTableBody.appendChild(row);
+        }
+      });
+      
+      if (matchCount === 0) {
+        compNoData.classList.remove('hidden');
+      } else {
+        compNoData.classList.add('hidden');
+      }
+    }
+
+    // Render athlete profile view (across ALL events)
+    function renderAthleteProfile(athleteName) {
+      if (!athleteName || athleteName.trim() === '') {
+        clearAthleteProfile();
+        return;
+      }
+      
+      const normalizedQuery = athleteName.toLowerCase().trim();
+      
+      // Accumulate all results for this athlete across all loaded events
+      let foundResults = [];
+      let foundClub = 'Unknown';
+      let actualName = '';
+      
+      allEventsDetails.forEach(detail => {
+        for (const ath of Object.values(detail.athletes)) {
+          if (ath.name.toLowerCase() === normalizedQuery) {
+            actualName = ath.name;
+            if (ath.club && ath.club !== 'Unknown') {
+              foundClub = ath.club;
+            }
+            ath.results.forEach(r => {
+              foundResults.push({
+                event_title: detail.title,
+                competition_title: r.competition_title,
+                rank: r.rank,
+                total_score: r.total_score,
+                routine_scores: r.routine_scores
+              });
+            });
+            break; // Match found for this event, move to next event
+          }
+        }
+      });
+      
+      if (foundResults.length === 0) {
+        clearAthleteProfile();
+        return;
+      }
+      
+      profName.textContent = actualName;
+      profClub.innerHTML = `<i class="fa-solid fa-building-flag mr-1.5"></i>${foundClub}`;
+      profCount.textContent = foundResults.length;
+      
+      athleteTableBody.innerHTML = '';
+      foundResults.forEach(r => {
+        const row = document.createElement('tr');
+        row.className = "hover:bg-gray-700/30 transition-colors";
+        
+        const routinesStr = r.routine_scores.length > 0 
+          ? r.routine_scores.map(s => `<span class="bg-gray-900 border border-gray-700 px-2 py-0.5 rounded text-xs font-mono font-medium">${s.toFixed(3)}</span>`).join(' ')
+          : '<span class="text-gray-500 italic text-xs">N/A</span>';
+          
+        row.innerHTML = `
+          <td class="px-6 py-4 font-medium text-gray-400 text-xs">${r.event_title}</td>
+          <td class="px-6 py-4 font-semibold text-purple-300">${r.competition_title}</td>
+          <td class="px-6 py-4 font-bold text-white">${r.rank}</td>
+          <td class="px-6 py-4 flex flex-wrap gap-1.5 items-center">${routinesStr}</td>
+          <td class="px-6 py-4 font-mono font-bold text-emerald-400">${r.total_score.toFixed(3)}</td>
+        `;
+        athleteTableBody.appendChild(row);
+      });
+      
+      athleteProfile.classList.remove('hidden');
+    }
+
+    function clearAthleteProfile() {
+      athleteProfile.classList.add('hidden');
+      // Fix: Never clear the search input field during typing/clearing the profile view
+    }
+
+    function showEmptyState() {
+      eventMeta.classList.add('hidden');
+      emptyState.classList.remove('hidden');
+      resultsArea.classList.add('hidden');
+      statComps.textContent = '0';
+      statAthletes.textContent = '0';
+      statClubs.textContent = '0';
+    }
+
+    // Set up Event Listeners
+    function setupEventListeners() {
+      eventSelect.addEventListener('change', (e) => {
+        selectEvent(e.target.value);
+      });
+      
+      compSelect.addEventListener('change', renderCompetitionTable);
+      compSearch.addEventListener('input', renderCompetitionTable);
+      
+      athleteSearch.addEventListener('input', (e) => {
+        renderAthleteProfile(e.target.value);
+      });
+
+      // Tabs Logic
+      tabComp.addEventListener('click', () => {
+        tabComp.className = "px-6 py-3 border-b-2 border-purple-500 text-purple-400 font-bold text-sm tracking-wide transition-all focus:outline-none flex items-center space-x-2";
+        tabAthlete.className = "px-6 py-3 border-b-2 border-transparent text-gray-400 hover:text-gray-200 hover:border-gray-600 font-bold text-sm tracking-wide transition-all focus:outline-none flex items-center space-x-2";
+        viewComp.classList.remove('hidden');
+        viewAthlete.classList.add('hidden');
+      });
+      
+      tabAthlete.addEventListener('click', () => {
+        tabAthlete.className = "px-6 py-3 border-b-2 border-purple-500 text-purple-400 font-bold text-sm tracking-wide transition-all focus:outline-none flex items-center space-x-2";
+        tabComp.className = "px-6 py-3 border-b-2 border-transparent text-gray-400 hover:text-gray-200 hover:border-gray-600 font-bold text-sm tracking-wide transition-all focus:outline-none flex items-center space-x-2";
+        viewComp.classList.add('hidden');
+        viewAthlete.classList.remove('hidden');
+      });
+    }
+
+    // Table sorting function
+    function sortTable(tableId, colIndex) {
+      let tbody, rows;
+      if (tableId === 'viewCompTable') {
+        tbody = compTableBody;
+        rows = Array.from(compTableBody.rows);
+      } else if (tableId === 'viewAthleteTable') {
+        tbody = athleteTableBody;
+        rows = Array.from(athleteTableBody.rows);
+      } else {
+        return;
+      }
+      
+      const key = `${tableId}_col_${colIndex}`;
+      const isAsc = sortDirections[key] !== 'asc';
+      sortDirections[key] = isAsc ? 'asc' : 'desc';
+      
+      rows.sort((a, b) => {
+        let valA = a.cells[colIndex].textContent.trim();
+        let valB = b.cells[colIndex].textContent.trim();
+        
+        // Try to sort numerically if appropriate
+        let numA = parseFloat(valA);
+        let numB = parseFloat(valB);
+        
+        if (!isNaN(numA) && !isNaN(numB)) {
+          return isAsc ? numA - numB : numB - numA;
+        }
+        
+        // Sort ranks with 'N/A' handled gracefully
+        if ((colIndex === 0 && tableId === 'viewCompTable') || (colIndex === 2 && tableId === 'viewAthleteTable')) {
+          let rankA = parseInt(valA);
+          let rankB = parseInt(valB);
+          
+          if (isNaN(rankA) && isNaN(rankB)) return valA.localeCompare(valB);
+          if (isNaN(rankA)) return 1; // Put N/A at the bottom
+          if (isNaN(rankB)) return -1;
+          return isAsc ? rankA - rankB : rankB - rankA;
+        }
+        
+        return isAsc ? valA.localeCompare(valB) : valB.localeCompare(valA);
+      });
+      
+      // Append sorted rows
+      rows.forEach(row => tbody.appendChild(row));
+    }
+  </script>
+</body>
+</html>

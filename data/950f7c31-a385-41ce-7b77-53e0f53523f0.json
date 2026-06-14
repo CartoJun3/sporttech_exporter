@@ -1,0 +1,7502 @@
+{
+  "event_id": "950f7c31-a385-41ce-7b77-53e0f53523f0",
+  "title": "QLD SQIC-TC Interclub #3, 2025",
+  "date": "2025-08-31T00:00:00Z",
+  "competitions": {
+    "16": {
+      "id": "16",
+      "title": "Level 2_8U DMT Male",
+      "results": [
+        {
+          "athlete_id": "24",
+          "athlete_name": "Theodore MARCHANT",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.5,
+          "rank": 1,
+          "routine_scores": [
+            19.2,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "37",
+          "athlete_name": "Hamish LEAHY",
+          "club": "PCYC Queensland",
+          "total_score": 36.3,
+          "rank": 2,
+          "routine_scores": [
+            17.4,
+            18.9
+          ]
+        }
+      ]
+    },
+    "4": {
+      "id": "4",
+      "title": "Level 2_8U TRP Male",
+      "results": [
+        {
+          "athlete_id": "24",
+          "athlete_name": "Theodore MARCHANT",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 54.6,
+          "rank": 1,
+          "routine_scores": [
+            27.2,
+            27.4
+          ]
+        },
+        {
+          "athlete_id": "37",
+          "athlete_name": "Hamish LEAHY",
+          "club": "PCYC Queensland",
+          "total_score": 46.9,
+          "rank": 2,
+          "routine_scores": [
+            25.2,
+            21.7
+          ]
+        }
+      ]
+    },
+    "28": {
+      "id": "28",
+      "title": "Level 2_8U TUM Male",
+      "results": [
+        {
+          "athlete_id": "24",
+          "athlete_name": "Theodore MARCHANT",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 34.9,
+          "rank": 1,
+          "routine_scores": [
+            17.4,
+            17.5
+          ]
+        }
+      ]
+    },
+    "12": {
+      "id": "12",
+      "title": "Level 1_8U DMT Male",
+      "results": [
+        {
+          "athlete_id": "1",
+          "athlete_name": "Joshua KEYS",
+          "club": "Redland City Gymsports",
+          "total_score": 38.1,
+          "rank": 1,
+          "routine_scores": [
+            19.2,
+            18.9
+          ]
+        },
+        {
+          "athlete_id": "18",
+          "athlete_name": "Edwin TREVENA",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 37.4,
+          "rank": 2,
+          "routine_scores": [
+            18.4,
+            19.0
+          ]
+        }
+      ]
+    },
+    "0": {
+      "id": "0",
+      "title": "Level 1_8U TRP Male",
+      "results": [
+        {
+          "athlete_id": "1",
+          "athlete_name": "Joshua KEYS",
+          "club": "Redland City Gymsports",
+          "total_score": 56.1,
+          "rank": 1,
+          "routine_scores": [
+            27.9,
+            28.2
+          ]
+        },
+        {
+          "athlete_id": "18",
+          "athlete_name": "Edwin TREVENA",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 55.4,
+          "rank": 2,
+          "routine_scores": [
+            27.8,
+            27.6
+          ]
+        }
+      ]
+    },
+    "24": {
+      "id": "24",
+      "title": "Level 1_8U TUM Male",
+      "results": [
+        {
+          "athlete_id": "18",
+          "athlete_name": "Edwin TREVENA",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 33.8,
+          "rank": 1,
+          "routine_scores": [
+            17.3,
+            16.5
+          ]
+        }
+      ]
+    },
+    "11": {
+      "id": "11",
+      "title": "Level 3 TRP Male",
+      "results": [
+        {
+          "athlete_id": "56",
+          "athlete_name": "Isaac PAYNE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 58.6,
+          "rank": 1,
+          "routine_scores": [
+            28.5,
+            30.1
+          ]
+        },
+        {
+          "athlete_id": "12",
+          "athlete_name": "Blake HAZLEWOOD",
+          "club": "PCYC Queensland",
+          "total_score": 58.2,
+          "rank": 2,
+          "routine_scores": [
+            28.3,
+            29.9
+          ]
+        },
+        {
+          "athlete_id": "36",
+          "athlete_name": "Baxter RICHARDSON",
+          "club": "Redland City Gymsports",
+          "total_score": 57.9,
+          "rank": 3,
+          "routine_scores": [
+            27.7,
+            30.2
+          ]
+        },
+        {
+          "athlete_id": "47",
+          "athlete_name": "Lincoln BAYLEY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.8,
+          "rank": 4,
+          "routine_scores": [
+            28.3,
+            29.5
+          ]
+        },
+        {
+          "athlete_id": "26",
+          "athlete_name": "Jordan BELLAMY",
+          "club": "Redland City Gymsports",
+          "total_score": 57.2,
+          "rank": 5,
+          "routine_scores": [
+            28.0,
+            29.2
+          ]
+        }
+      ]
+    },
+    "22": {
+      "id": "22",
+      "title": "Level 3 DMT Male",
+      "results": [
+        {
+          "athlete_id": "12",
+          "athlete_name": "Blake HAZLEWOOD",
+          "club": "PCYC Queensland",
+          "total_score": 40.0,
+          "rank": 1,
+          "routine_scores": [
+            20.1,
+            19.9
+          ]
+        },
+        {
+          "athlete_id": "56",
+          "athlete_name": "Isaac PAYNE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.0,
+          "rank": 2,
+          "routine_scores": [
+            19.8,
+            19.2
+          ]
+        },
+        {
+          "athlete_id": "26",
+          "athlete_name": "Jordan BELLAMY",
+          "club": "Redland City Gymsports",
+          "total_score": 38.8,
+          "rank": 3,
+          "routine_scores": [
+            19.1,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "36",
+          "athlete_name": "Baxter RICHARDSON",
+          "club": "Redland City Gymsports",
+          "total_score": 38.8,
+          "rank": 4,
+          "routine_scores": [
+            19.3,
+            19.5
+          ]
+        },
+        {
+          "athlete_id": "47",
+          "athlete_name": "Lincoln BAYLEY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.6,
+          "rank": 5,
+          "routine_scores": [
+            19.3,
+            19.3
+          ]
+        }
+      ]
+    },
+    "34": {
+      "id": "34",
+      "title": "Level 3 TUM Male",
+      "results": [
+        {
+          "athlete_id": "36",
+          "athlete_name": "Baxter RICHARDSON",
+          "club": "Redland City Gymsports",
+          "total_score": 35.1,
+          "rank": 1,
+          "routine_scores": [
+            17.6,
+            17.5
+          ]
+        }
+      ]
+    },
+    "32": {
+      "id": "32",
+      "title": "Level 2A TUM Male",
+      "results": [
+        {
+          "athlete_id": "65",
+          "athlete_name": "Liam KENNA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.0,
+          "rank": 1,
+          "routine_scores": [
+            18.0,
+            18.0
+          ]
+        },
+        {
+          "athlete_id": "55",
+          "athlete_name": "Elliot WALKER",
+          "club": "Redland City Gymsports",
+          "total_score": 23.0,
+          "rank": 2,
+          "routine_scores": [
+            11.5,
+            11.5
+          ]
+        },
+        {
+          "athlete_id": "47",
+          "athlete_name": "Lincoln BAYLEY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 17.8,
+          "rank": 3,
+          "routine_scores": [
+            0.0,
+            17.8
+          ]
+        },
+        {
+          "athlete_id": "72",
+          "athlete_name": "Darwin KOSASI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 4,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "241",
+          "athlete_name": "Cooper SCHULER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 4,
+          "routine_scores": []
+        }
+      ]
+    },
+    "7": {
+      "id": "7",
+      "title": "Level 2 TRP Female",
+      "results": [
+        {
+          "athlete_id": "109",
+          "athlete_name": "Navya PATEL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 58.9,
+          "rank": 1,
+          "routine_scores": [
+            29.1,
+            29.8
+          ]
+        },
+        {
+          "athlete_id": "81",
+          "athlete_name": "Isla SI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 58.5,
+          "rank": 2,
+          "routine_scores": [
+            28.8,
+            29.7
+          ]
+        },
+        {
+          "athlete_id": "51",
+          "athlete_name": "Emily KEKEBO",
+          "club": "Redland City Gymsports",
+          "total_score": 58.0,
+          "rank": 3,
+          "routine_scores": [
+            28.4,
+            29.6
+          ]
+        },
+        {
+          "athlete_id": "102",
+          "athlete_name": "Erin CARROLL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 58.0,
+          "rank": 4,
+          "routine_scores": [
+            28.4,
+            29.6
+          ]
+        },
+        {
+          "athlete_id": "96",
+          "athlete_name": "Angelique BONNET",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.5,
+          "rank": 5,
+          "routine_scores": [
+            28.3,
+            29.2
+          ]
+        },
+        {
+          "athlete_id": "21",
+          "athlete_name": "Eloise JONES",
+          "club": "PCYC Queensland",
+          "total_score": 57.4,
+          "rank": 6,
+          "routine_scores": [
+            28.0,
+            29.4
+          ]
+        },
+        {
+          "athlete_id": "107",
+          "athlete_name": "Guinny NUTTALL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.3,
+          "rank": 7,
+          "routine_scores": [
+            28.5,
+            28.8
+          ]
+        },
+        {
+          "athlete_id": "85",
+          "athlete_name": "Fiona WANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 55.5,
+          "rank": 8,
+          "routine_scores": [
+            28.7,
+            26.8
+          ]
+        },
+        {
+          "athlete_id": "90",
+          "athlete_name": "Eliza WEE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 52.7,
+          "rank": 9,
+          "routine_scores": [
+            29.1,
+            23.6
+          ]
+        },
+        {
+          "athlete_id": "43",
+          "athlete_name": "Amelia HOGER",
+          "club": "Redland City Gymsports",
+          "total_score": 52.3,
+          "rank": 10,
+          "routine_scores": [
+            28.6,
+            23.7
+          ]
+        },
+        {
+          "athlete_id": "34",
+          "athlete_name": "Aura GIBSON",
+          "club": "Redland City Gymsports",
+          "total_score": 51.7,
+          "rank": 11,
+          "routine_scores": [
+            25.1,
+            26.6
+          ]
+        },
+        {
+          "athlete_id": "66",
+          "athlete_name": "Charlotte WHITTINGTON",
+          "club": "Redland City Gymsports",
+          "total_score": 49.5,
+          "rank": 12,
+          "routine_scores": [
+            28.7,
+            20.8
+          ]
+        },
+        {
+          "athlete_id": "105",
+          "athlete_name": "Gracie KING",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 26.0,
+          "rank": 13,
+          "routine_scores": [
+            11.3,
+            14.7
+          ]
+        },
+        {
+          "athlete_id": "73",
+          "athlete_name": "Chelsea WILSON",
+          "club": "Redland City Gymsports",
+          "total_score": 20.5,
+          "rank": 14,
+          "routine_scores": [
+            11.5,
+            9.0
+          ]
+        },
+        {
+          "athlete_id": "59",
+          "athlete_name": "Acacia MACE",
+          "club": "Redland City Gymsports",
+          "total_score": 0.0,
+          "rank": 15,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "9",
+          "athlete_name": "Lillian BARBER",
+          "club": "PCYC Queensland",
+          "total_score": 0.0,
+          "rank": 15,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "99",
+          "athlete_name": "Josie CARLISLE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 15,
+          "routine_scores": []
+        }
+      ]
+    },
+    "19": {
+      "id": "19",
+      "title": "Level 2 DMT Female",
+      "results": [
+        {
+          "athlete_id": "85",
+          "athlete_name": "Fiona WANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.6,
+          "rank": 1,
+          "routine_scores": [
+            20.0,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "66",
+          "athlete_name": "Charlotte WHITTINGTON",
+          "club": "Redland City Gymsports",
+          "total_score": 39.5,
+          "rank": 2,
+          "routine_scores": [
+            19.9,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "81",
+          "athlete_name": "Isla SI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.3,
+          "rank": 3,
+          "routine_scores": [
+            19.7,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "109",
+          "athlete_name": "Navya PATEL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.3,
+          "rank": 4,
+          "routine_scores": [
+            19.6,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "90",
+          "athlete_name": "Eliza WEE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.3,
+          "rank": 5,
+          "routine_scores": [
+            19.6,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "107",
+          "athlete_name": "Guinny NUTTALL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.2,
+          "rank": 6,
+          "routine_scores": [
+            19.6,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "51",
+          "athlete_name": "Emily KEKEBO",
+          "club": "Redland City Gymsports",
+          "total_score": 39.0,
+          "rank": 7,
+          "routine_scores": [
+            19.8,
+            19.2
+          ]
+        },
+        {
+          "athlete_id": "218",
+          "athlete_name": "Ava HODDA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.8,
+          "rank": 8,
+          "routine_scores": [
+            19.4,
+            19.4
+          ]
+        },
+        {
+          "athlete_id": "105",
+          "athlete_name": "Gracie KING",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.4,
+          "rank": 9,
+          "routine_scores": [
+            19.1,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "21",
+          "athlete_name": "Eloise JONES",
+          "club": "PCYC Queensland",
+          "total_score": 38.3,
+          "rank": 10,
+          "routine_scores": [
+            19.3,
+            19.0
+          ]
+        },
+        {
+          "athlete_id": "96",
+          "athlete_name": "Angelique BONNET",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.3,
+          "rank": 11,
+          "routine_scores": [
+            18.5,
+            19.8
+          ]
+        },
+        {
+          "athlete_id": "73",
+          "athlete_name": "Chelsea WILSON",
+          "club": "Redland City Gymsports",
+          "total_score": 38.1,
+          "rank": 12,
+          "routine_scores": [
+            19.1,
+            19.0
+          ]
+        },
+        {
+          "athlete_id": "43",
+          "athlete_name": "Amelia HOGER",
+          "club": "Redland City Gymsports",
+          "total_score": 37.3,
+          "rank": 13,
+          "routine_scores": [
+            19.6,
+            17.7
+          ]
+        },
+        {
+          "athlete_id": "102",
+          "athlete_name": "Erin CARROLL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 19.7,
+          "rank": 14,
+          "routine_scores": [
+            19.7,
+            0.0
+          ]
+        },
+        {
+          "athlete_id": "205",
+          "athlete_name": "Lacey BAMBERRY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 19.3,
+          "rank": 15,
+          "routine_scores": [
+            0.0,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "34",
+          "athlete_name": "Aura GIBSON",
+          "club": "Redland City Gymsports",
+          "total_score": 19.1,
+          "rank": 16,
+          "routine_scores": [
+            19.1,
+            0.0
+          ]
+        },
+        {
+          "athlete_id": "59",
+          "athlete_name": "Acacia MACE",
+          "club": "Redland City Gymsports",
+          "total_score": 0.0,
+          "rank": 17,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "9",
+          "athlete_name": "Lillian BARBER",
+          "club": "PCYC Queensland",
+          "total_score": 0.0,
+          "rank": 17,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "99",
+          "athlete_name": "Josie CARLISLE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 17,
+          "routine_scores": []
+        }
+      ]
+    },
+    "31": {
+      "id": "31",
+      "title": "Level 2 TUM Female",
+      "results": [
+        {
+          "athlete_id": "102",
+          "athlete_name": "Erin CARROLL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.8,
+          "rank": 1,
+          "routine_scores": [
+            18.3,
+            18.5
+          ]
+        },
+        {
+          "athlete_id": "30",
+          "athlete_name": "Lacey GALLACHER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.4,
+          "rank": 2,
+          "routine_scores": [
+            18.3,
+            18.1
+          ]
+        },
+        {
+          "athlete_id": "51",
+          "athlete_name": "Emily KEKEBO",
+          "club": "Redland City Gymsports",
+          "total_score": 36.3,
+          "rank": 3,
+          "routine_scores": [
+            18.4,
+            17.9
+          ]
+        },
+        {
+          "athlete_id": "267",
+          "athlete_name": "Lily HARGREAVES",
+          "club": "PCYC Queensland",
+          "total_score": 36.3,
+          "rank": 4,
+          "routine_scores": [
+            18.2,
+            18.1
+          ]
+        },
+        {
+          "athlete_id": "218",
+          "athlete_name": "Ava HODDA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.3,
+          "rank": 5,
+          "routine_scores": [
+            18.2,
+            18.1
+          ]
+        },
+        {
+          "athlete_id": "74",
+          "athlete_name": "Cariad JONES",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.2,
+          "rank": 6,
+          "routine_scores": [
+            18.1,
+            18.1
+          ]
+        },
+        {
+          "athlete_id": "66",
+          "athlete_name": "Charlotte WHITTINGTON",
+          "club": "Redland City Gymsports",
+          "total_score": 36.1,
+          "rank": 7,
+          "routine_scores": [
+            18.2,
+            17.9
+          ]
+        },
+        {
+          "athlete_id": "96",
+          "athlete_name": "Angelique BONNET",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.0,
+          "rank": 8,
+          "routine_scores": [
+            18.1,
+            17.9
+          ]
+        },
+        {
+          "athlete_id": "109",
+          "athlete_name": "Navya PATEL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.0,
+          "rank": 9,
+          "routine_scores": [
+            18.0,
+            18.0
+          ]
+        },
+        {
+          "athlete_id": "205",
+          "athlete_name": "Lacey BAMBERRY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 35.9,
+          "rank": 10,
+          "routine_scores": [
+            18.0,
+            17.9
+          ]
+        },
+        {
+          "athlete_id": "107",
+          "athlete_name": "Guinny NUTTALL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 35.0,
+          "rank": 11,
+          "routine_scores": [
+            17.6,
+            17.4
+          ]
+        },
+        {
+          "athlete_id": "81",
+          "athlete_name": "Isla SI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 33.3,
+          "rank": 12,
+          "routine_scores": [
+            18.3,
+            15.0
+          ]
+        },
+        {
+          "athlete_id": "73",
+          "athlete_name": "Chelsea WILSON",
+          "club": "Redland City Gymsports",
+          "total_score": 30.0,
+          "rank": 13,
+          "routine_scores": [
+            17.0,
+            13.0
+          ]
+        },
+        {
+          "athlete_id": "34",
+          "athlete_name": "Aura GIBSON",
+          "club": "Redland City Gymsports",
+          "total_score": 29.3,
+          "rank": 14,
+          "routine_scores": [
+            17.7,
+            11.6
+          ]
+        },
+        {
+          "athlete_id": "105",
+          "athlete_name": "Gracie KING",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 29.1,
+          "rank": 15,
+          "routine_scores": [
+            17.7,
+            11.4
+          ]
+        },
+        {
+          "athlete_id": "273",
+          "athlete_name": "Maia KING",
+          "club": "PCYC Queensland",
+          "total_score": 17.3,
+          "rank": 16,
+          "routine_scores": [
+            17.3,
+            0.0
+          ]
+        },
+        {
+          "athlete_id": "79",
+          "athlete_name": "Reign LEOFA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 17,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "89",
+          "athlete_name": "Koharu MATTHEWS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 17,
+          "routine_scores": []
+        }
+      ]
+    },
+    "33": {
+      "id": "33",
+      "title": "Level 2A TUM Female",
+      "results": [
+        {
+          "athlete_id": "111",
+          "athlete_name": "Skylah WOODROW",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.9,
+          "rank": 1,
+          "routine_scores": [
+            18.9,
+            19.0
+          ]
+        },
+        {
+          "athlete_id": "88",
+          "athlete_name": "Tara DOODNEY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.5,
+          "rank": 2,
+          "routine_scores": [
+            18.7,
+            18.8
+          ]
+        },
+        {
+          "athlete_id": "108",
+          "athlete_name": "Hayley TRUSS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.4,
+          "rank": 3,
+          "routine_scores": [
+            18.7,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "110",
+          "athlete_name": "Chloe WANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.4,
+          "rank": 4,
+          "routine_scores": [
+            18.8,
+            18.6
+          ]
+        },
+        {
+          "athlete_id": "231",
+          "athlete_name": "Lily DEVITT",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.3,
+          "rank": 5,
+          "routine_scores": [
+            18.5,
+            18.8
+          ]
+        },
+        {
+          "athlete_id": "83",
+          "athlete_name": "Claire CHAMPION",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.9,
+          "rank": 6,
+          "routine_scores": [
+            18.6,
+            18.3
+          ]
+        },
+        {
+          "athlete_id": "90",
+          "athlete_name": "Eliza WEE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.8,
+          "rank": 7,
+          "routine_scores": [
+            18.5,
+            18.3
+          ]
+        },
+        {
+          "athlete_id": "187",
+          "athlete_name": "Grace BEARDSLEY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.4,
+          "rank": 8,
+          "routine_scores": [
+            18.4,
+            18.0
+          ]
+        },
+        {
+          "athlete_id": "93",
+          "athlete_name": "Rubaiyat KHERHA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.1,
+          "rank": 9,
+          "routine_scores": [
+            18.3,
+            17.8
+          ]
+        },
+        {
+          "athlete_id": "85",
+          "athlete_name": "Fiona WANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 18.9,
+          "rank": 10,
+          "routine_scores": [
+            0.0,
+            18.9
+          ]
+        },
+        {
+          "athlete_id": "97",
+          "athlete_name": "Mckayla KRUGER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 18.7,
+          "rank": 11,
+          "routine_scores": [
+            0.0,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "106",
+          "athlete_name": "Riley RAUTENBACH",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 18.7,
+          "rank": 12,
+          "routine_scores": [
+            0.0,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "104",
+          "athlete_name": "Sophia BOTHA",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 18.7,
+          "rank": 13,
+          "routine_scores": [
+            0.0,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "100",
+          "athlete_name": "Violet RAFTER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 18.4,
+          "rank": 14,
+          "routine_scores": [
+            0.0,
+            18.4
+          ]
+        },
+        {
+          "athlete_id": "57",
+          "athlete_name": "Sophie EUSTACE",
+          "club": "Redland City Gymsports",
+          "total_score": 15.0,
+          "rank": 15,
+          "routine_scores": [
+            0.0,
+            15.0
+          ]
+        },
+        {
+          "athlete_id": "77",
+          "athlete_name": "Libby BRODSKY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 13.4,
+          "rank": 16,
+          "routine_scores": [
+            0.0,
+            13.4
+          ]
+        }
+      ]
+    },
+    "27": {
+      "id": "27",
+      "title": "Level 1 TUM Female",
+      "results": [
+        {
+          "athlete_id": "48",
+          "athlete_name": "Willow CHRISTALL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.3,
+          "rank": 1,
+          "routine_scores": [
+            19.7,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "101",
+          "athlete_name": "Evelyn Candice WANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.9,
+          "rank": 2,
+          "routine_scores": [
+            19.7,
+            19.2
+          ]
+        },
+        {
+          "athlete_id": "94",
+          "athlete_name": "Alana RIZQALLAH",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.7,
+          "rank": 3,
+          "routine_scores": [
+            19.5,
+            19.2
+          ]
+        },
+        {
+          "athlete_id": "62",
+          "athlete_name": "Isabella COLUSSI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.5,
+          "rank": 4,
+          "routine_scores": [
+            19.4,
+            19.1
+          ]
+        },
+        {
+          "athlete_id": "84",
+          "athlete_name": "Ariana LEWIS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.1,
+          "rank": 5,
+          "routine_scores": [
+            19.3,
+            18.8
+          ]
+        },
+        {
+          "athlete_id": "103",
+          "athlete_name": "Gemma YANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.9,
+          "rank": 6,
+          "routine_scores": [
+            18.8,
+            19.1
+          ]
+        },
+        {
+          "athlete_id": "17",
+          "athlete_name": "Pippa HILLIARD",
+          "club": "Redland City Gymsports",
+          "total_score": 37.6,
+          "rank": 7,
+          "routine_scores": [
+            19.3,
+            18.3
+          ]
+        },
+        {
+          "athlete_id": "69",
+          "athlete_name": "Charli JOHNSON",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.5,
+          "rank": 8,
+          "routine_scores": [
+            18.9,
+            18.6
+          ]
+        },
+        {
+          "athlete_id": "6",
+          "athlete_name": "Matilda CAMPBELL",
+          "club": "Redland City Gymsports",
+          "total_score": 37.5,
+          "rank": 9,
+          "routine_scores": [
+            18.7,
+            18.8
+          ]
+        },
+        {
+          "athlete_id": "28",
+          "athlete_name": "Tegan PEROVIC",
+          "club": "Redland City Gymsports",
+          "total_score": 37.3,
+          "rank": 10,
+          "routine_scores": [
+            18.8,
+            18.5
+          ]
+        },
+        {
+          "athlete_id": "38",
+          "athlete_name": "Ella RAITERI",
+          "club": "Redland City Gymsports",
+          "total_score": 37.1,
+          "rank": 11,
+          "routine_scores": [
+            18.6,
+            18.5
+          ]
+        },
+        {
+          "athlete_id": "98",
+          "athlete_name": "Marina TERRY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.3,
+          "rank": 12,
+          "routine_scores": [
+            18.6,
+            17.7
+          ]
+        },
+        {
+          "athlete_id": "99",
+          "athlete_name": "Josie CARLISLE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 13,
+          "routine_scores": []
+        }
+      ]
+    },
+    "6": {
+      "id": "6",
+      "title": "Level 2 TRP Male",
+      "results": [
+        {
+          "athlete_id": "29",
+          "athlete_name": "Jasper WEE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.6,
+          "rank": 1,
+          "routine_scores": [
+            28.9,
+            28.7
+          ]
+        },
+        {
+          "athlete_id": "8",
+          "athlete_name": "Mark MCKELL",
+          "club": "Redland City Gymsports",
+          "total_score": 57.2,
+          "rank": 2,
+          "routine_scores": [
+            28.3,
+            28.9
+          ]
+        },
+        {
+          "athlete_id": "19",
+          "athlete_name": "Leo PETIT",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 3,
+          "routine_scores": []
+        }
+      ]
+    },
+    "18": {
+      "id": "18",
+      "title": "Level 2 DMT Male",
+      "results": [
+        {
+          "athlete_id": "8",
+          "athlete_name": "Mark MCKELL",
+          "club": "Redland City Gymsports",
+          "total_score": 38.8,
+          "rank": 1,
+          "routine_scores": [
+            19.6,
+            19.2
+          ]
+        },
+        {
+          "athlete_id": "128",
+          "athlete_name": "Joel BOTHA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.6,
+          "rank": 2,
+          "routine_scores": [
+            19.3,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "29",
+          "athlete_name": "Jasper WEE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.3,
+          "rank": 3,
+          "routine_scores": [
+            19.6,
+            17.7
+          ]
+        },
+        {
+          "athlete_id": "19",
+          "athlete_name": "Leo PETIT",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 4,
+          "routine_scores": []
+        }
+      ]
+    },
+    "26": {
+      "id": "26",
+      "title": "Level 1 TUM Male",
+      "results": [
+        {
+          "athlete_id": "45",
+          "athlete_name": "Michael SHEARER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 35.0,
+          "rank": 1,
+          "routine_scores": [
+            16.8,
+            18.2
+          ]
+        },
+        {
+          "athlete_id": "19",
+          "athlete_name": "Leo PETIT",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 2,
+          "routine_scores": []
+        }
+      ]
+    },
+    "30": {
+      "id": "30",
+      "title": "Level 2 TUM Male",
+      "results": [
+        {
+          "athlete_id": "29",
+          "athlete_name": "Jasper WEE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.4,
+          "rank": 1,
+          "routine_scores": [
+            18.0,
+            18.4
+          ]
+        },
+        {
+          "athlete_id": "128",
+          "athlete_name": "Joel BOTHA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 35.1,
+          "rank": 2,
+          "routine_scores": [
+            17.7,
+            17.4
+          ]
+        },
+        {
+          "athlete_id": "8",
+          "athlete_name": "Mark MCKELL",
+          "club": "Redland City Gymsports",
+          "total_score": 28.6,
+          "rank": 3,
+          "routine_scores": [
+            17.1,
+            11.5
+          ]
+        },
+        {
+          "athlete_id": "54",
+          "athlete_name": "George SIEGEL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 26.0,
+          "rank": 4,
+          "routine_scores": [
+            14.5,
+            11.5
+          ]
+        }
+      ]
+    },
+    "1": {
+      "id": "1",
+      "title": "Level 1_8U TRP Female",
+      "results": [
+        {
+          "athlete_id": "15",
+          "athlete_name": "Cleo PIERCE",
+          "club": "Redland City Gymsports",
+          "total_score": 57.4,
+          "rank": 1,
+          "routine_scores": [
+            28.4,
+            29.0
+          ]
+        },
+        {
+          "athlete_id": "3",
+          "athlete_name": "Maia CHOO",
+          "club": "Redland City Gymsports",
+          "total_score": 57.4,
+          "rank": 2,
+          "routine_scores": [
+            28.5,
+            28.9
+          ]
+        },
+        {
+          "athlete_id": "76",
+          "athlete_name": "Sereani RASOVA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.0,
+          "rank": 3,
+          "routine_scores": [
+            28.7,
+            28.3
+          ]
+        },
+        {
+          "athlete_id": "31",
+          "athlete_name": "Rhyleigh HITCHCOCK",
+          "club": "PCYC Queensland",
+          "total_score": 56.6,
+          "rank": 4,
+          "routine_scores": [
+            28.2,
+            28.4
+          ]
+        },
+        {
+          "athlete_id": "91",
+          "athlete_name": "Amelia WONG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 56.6,
+          "rank": 4,
+          "routine_scores": [
+            28.4,
+            28.2
+          ]
+        },
+        {
+          "athlete_id": "50",
+          "athlete_name": "Elyssa LIM",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 55.7,
+          "rank": 6,
+          "routine_scores": [
+            27.7,
+            28.0
+          ]
+        },
+        {
+          "athlete_id": "39",
+          "athlete_name": "Ava NICHOLAS",
+          "club": "PCYC Queensland",
+          "total_score": 55.4,
+          "rank": 7,
+          "routine_scores": [
+            27.4,
+            28.0
+          ]
+        },
+        {
+          "athlete_id": "82",
+          "athlete_name": "Henrietta SIEGEL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 55.3,
+          "rank": 8,
+          "routine_scores": [
+            27.5,
+            27.8
+          ]
+        },
+        {
+          "athlete_id": "64",
+          "athlete_name": "Willow MURRAY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 55.1,
+          "rank": 9,
+          "routine_scores": [
+            27.2,
+            27.9
+          ]
+        },
+        {
+          "athlete_id": "71",
+          "athlete_name": "Kenzie OMBAO",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 51.7,
+          "rank": 10,
+          "routine_scores": [
+            24.9,
+            26.8
+          ]
+        },
+        {
+          "athlete_id": "58",
+          "athlete_name": "Adena MCGRATH",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 40.7,
+          "rank": 11,
+          "routine_scores": [
+            20.5,
+            20.2
+          ]
+        },
+        {
+          "athlete_id": "86",
+          "athlete_name": "Clara TANHAM",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 12,
+          "routine_scores": []
+        }
+      ]
+    },
+    "13": {
+      "id": "13",
+      "title": "Level 1_8U DMT Female",
+      "results": [
+        {
+          "athlete_id": "76",
+          "athlete_name": "Sereani RASOVA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.2,
+          "rank": 1,
+          "routine_scores": [
+            19.5,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "15",
+          "athlete_name": "Cleo PIERCE",
+          "club": "Redland City Gymsports",
+          "total_score": 38.8,
+          "rank": 2,
+          "routine_scores": [
+            19.4,
+            19.4
+          ]
+        },
+        {
+          "athlete_id": "64",
+          "athlete_name": "Willow MURRAY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.4,
+          "rank": 3,
+          "routine_scores": [
+            19.3,
+            19.1
+          ]
+        },
+        {
+          "athlete_id": "58",
+          "athlete_name": "Adena MCGRATH",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.4,
+          "rank": 4,
+          "routine_scores": [
+            19.1,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "31",
+          "athlete_name": "Rhyleigh HITCHCOCK",
+          "club": "PCYC Queensland",
+          "total_score": 38.4,
+          "rank": 5,
+          "routine_scores": [
+            19.1,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "91",
+          "athlete_name": "Amelia WONG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.9,
+          "rank": 6,
+          "routine_scores": [
+            18.9,
+            19.0
+          ]
+        },
+        {
+          "athlete_id": "3",
+          "athlete_name": "Maia CHOO",
+          "club": "Redland City Gymsports",
+          "total_score": 37.7,
+          "rank": 7,
+          "routine_scores": [
+            17.7,
+            20.0
+          ]
+        },
+        {
+          "athlete_id": "82",
+          "athlete_name": "Henrietta SIEGEL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.6,
+          "rank": 8,
+          "routine_scores": [
+            18.8,
+            18.8
+          ]
+        },
+        {
+          "athlete_id": "160",
+          "athlete_name": "Parnika KONERU",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.4,
+          "rank": 9,
+          "routine_scores": [
+            18.8,
+            18.6
+          ]
+        },
+        {
+          "athlete_id": "39",
+          "athlete_name": "Ava NICHOLAS",
+          "club": "PCYC Queensland",
+          "total_score": 37.1,
+          "rank": 10,
+          "routine_scores": [
+            19.2,
+            17.9
+          ]
+        },
+        {
+          "athlete_id": "50",
+          "athlete_name": "Elyssa LIM",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.4,
+          "rank": 11,
+          "routine_scores": [
+            18.7,
+            17.7
+          ]
+        },
+        {
+          "athlete_id": "71",
+          "athlete_name": "Kenzie OMBAO",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 12,
+          "routine_scores": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "athlete_id": "86",
+          "athlete_name": "Clara TANHAM",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 12,
+          "routine_scores": []
+        }
+      ]
+    },
+    "25": {
+      "id": "25",
+      "title": "Level 1_8U TUM Female",
+      "results": [
+        {
+          "athlete_id": "53",
+          "athlete_name": "Sophia TAYLOR",
+          "club": "PCYC Queensland",
+          "total_score": 39.0,
+          "rank": 1,
+          "routine_scores": [
+            19.5,
+            19.5
+          ]
+        },
+        {
+          "athlete_id": "76",
+          "athlete_name": "Sereani RASOVA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.9,
+          "rank": 2,
+          "routine_scores": [
+            19.4,
+            19.5
+          ]
+        },
+        {
+          "athlete_id": "64",
+          "athlete_name": "Willow MURRAY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.7,
+          "rank": 3,
+          "routine_scores": [
+            19.3,
+            19.4
+          ]
+        },
+        {
+          "athlete_id": "271",
+          "athlete_name": "Mattisse JOHNS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.5,
+          "rank": 4,
+          "routine_scores": [
+            19.5,
+            19.0
+          ]
+        },
+        {
+          "athlete_id": "58",
+          "athlete_name": "Adena MCGRATH",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.0,
+          "rank": 5,
+          "routine_scores": [
+            18.9,
+            19.1
+          ]
+        },
+        {
+          "athlete_id": "91",
+          "athlete_name": "Amelia WONG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.8,
+          "rank": 6,
+          "routine_scores": [
+            19.1,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "3",
+          "athlete_name": "Maia CHOO",
+          "club": "Redland City Gymsports",
+          "total_score": 37.6,
+          "rank": 7,
+          "routine_scores": [
+            18.3,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "39",
+          "athlete_name": "Ava NICHOLAS",
+          "club": "PCYC Queensland",
+          "total_score": 37.2,
+          "rank": 8,
+          "routine_scores": [
+            18.7,
+            18.5
+          ]
+        },
+        {
+          "athlete_id": "15",
+          "athlete_name": "Cleo PIERCE",
+          "club": "Redland City Gymsports",
+          "total_score": 37.1,
+          "rank": 9,
+          "routine_scores": [
+            18.5,
+            18.6
+          ]
+        },
+        {
+          "athlete_id": "160",
+          "athlete_name": "Parnika KONERU",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.0,
+          "rank": 10,
+          "routine_scores": [
+            18.3,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "71",
+          "athlete_name": "Kenzie OMBAO",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.0,
+          "rank": 11,
+          "routine_scores": [
+            18.5,
+            18.5
+          ]
+        },
+        {
+          "athlete_id": "31",
+          "athlete_name": "Rhyleigh HITCHCOCK",
+          "club": "PCYC Queensland",
+          "total_score": 37.0,
+          "rank": 12,
+          "routine_scores": [
+            18.6,
+            18.4
+          ]
+        },
+        {
+          "athlete_id": "50",
+          "athlete_name": "Elyssa LIM",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.5,
+          "rank": 13,
+          "routine_scores": [
+            18.0,
+            18.5
+          ]
+        }
+      ]
+    },
+    "29": {
+      "id": "29",
+      "title": "Level 2_8U TUM Female",
+      "results": [
+        {
+          "athlete_id": "5",
+          "athlete_name": "Mila BOSKOVIC",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.0,
+          "rank": 1,
+          "routine_scores": [
+            19.0,
+            19.0
+          ]
+        },
+        {
+          "athlete_id": "27",
+          "athlete_name": "Ruby MEIN",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.5,
+          "rank": 2,
+          "routine_scores": [
+            19.0,
+            18.5
+          ]
+        },
+        {
+          "athlete_id": "16",
+          "athlete_name": "Evelyn FODEN",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.3,
+          "rank": 3,
+          "routine_scores": [
+            18.6,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "61",
+          "athlete_name": "Isla SAMIOS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.2,
+          "rank": 4,
+          "routine_scores": [
+            18.5,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "68",
+          "athlete_name": "Evelyn VAGG",
+          "club": "Scenic Rim Trampoline Gymnastics",
+          "total_score": 36.7,
+          "rank": 5,
+          "routine_scores": [
+            18.2,
+            18.5
+          ]
+        },
+        {
+          "athlete_id": "40",
+          "athlete_name": "Caoimhe DOHERTY",
+          "club": "Redland City Gymsports",
+          "total_score": 36.1,
+          "rank": 6,
+          "routine_scores": [
+            17.8,
+            18.3
+          ]
+        },
+        {
+          "athlete_id": "82",
+          "athlete_name": "Henrietta SIEGEL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 28.9,
+          "rank": 7,
+          "routine_scores": [
+            17.5,
+            11.4
+          ]
+        },
+        {
+          "athlete_id": "86",
+          "athlete_name": "Clara TANHAM",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 8,
+          "routine_scores": []
+        }
+      ]
+    },
+    "15": {
+      "id": "15",
+      "title": "Level 1 DMT Female",
+      "results": [
+        {
+          "athlete_id": "94",
+          "athlete_name": "Alana RIZQALLAH",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.2,
+          "rank": 1,
+          "routine_scores": [
+            19.5,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "74",
+          "athlete_name": "Cariad JONES",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.1,
+          "rank": 2,
+          "routine_scores": [
+            19.4,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "6",
+          "athlete_name": "Matilda CAMPBELL",
+          "club": "Redland City Gymsports",
+          "total_score": 39.1,
+          "rank": 3,
+          "routine_scores": [
+            19.3,
+            19.8
+          ]
+        },
+        {
+          "athlete_id": "103",
+          "athlete_name": "Gemma YANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.0,
+          "rank": 4,
+          "routine_scores": [
+            19.4,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "48",
+          "athlete_name": "Willow CHRISTALL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.0,
+          "rank": 4,
+          "routine_scores": [
+            19.4,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "69",
+          "athlete_name": "Charli JOHNSON",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.8,
+          "rank": 6,
+          "routine_scores": [
+            19.2,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "101",
+          "athlete_name": "Evelyn Candice WANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.8,
+          "rank": 7,
+          "routine_scores": [
+            19.4,
+            19.4
+          ]
+        },
+        {
+          "athlete_id": "28",
+          "athlete_name": "Tegan PEROVIC",
+          "club": "Redland City Gymsports",
+          "total_score": 38.7,
+          "rank": 8,
+          "routine_scores": [
+            19.4,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "17",
+          "athlete_name": "Pippa HILLIARD",
+          "club": "Redland City Gymsports",
+          "total_score": 38.4,
+          "rank": 9,
+          "routine_scores": [
+            19.4,
+            19.0
+          ]
+        },
+        {
+          "athlete_id": "62",
+          "athlete_name": "Isabella COLUSSI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.3,
+          "rank": 10,
+          "routine_scores": [
+            19.3,
+            19.0
+          ]
+        },
+        {
+          "athlete_id": "38",
+          "athlete_name": "Ella RAITERI",
+          "club": "Redland City Gymsports",
+          "total_score": 37.7,
+          "rank": 11,
+          "routine_scores": [
+            19.4,
+            18.3
+          ]
+        },
+        {
+          "athlete_id": "98",
+          "athlete_name": "Marina TERRY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 19.3,
+          "rank": 12,
+          "routine_scores": [
+            0.0,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "84",
+          "athlete_name": "Ariana LEWIS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 18.5,
+          "rank": 13,
+          "routine_scores": [
+            0.0,
+            18.5
+          ]
+        },
+        {
+          "athlete_id": "79",
+          "athlete_name": "Reign LEOFA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 14,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "89",
+          "athlete_name": "Koharu MATTHEWS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 14,
+          "routine_scores": []
+        }
+      ]
+    },
+    "3": {
+      "id": "3",
+      "title": "Level 1 TRP Female",
+      "results": [
+        {
+          "athlete_id": "103",
+          "athlete_name": "Gemma YANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 58.2,
+          "rank": 1,
+          "routine_scores": [
+            29.0,
+            29.2
+          ]
+        },
+        {
+          "athlete_id": "28",
+          "athlete_name": "Tegan PEROVIC",
+          "club": "Redland City Gymsports",
+          "total_score": 57.8,
+          "rank": 2,
+          "routine_scores": [
+            28.7,
+            29.1
+          ]
+        },
+        {
+          "athlete_id": "17",
+          "athlete_name": "Pippa HILLIARD",
+          "club": "Redland City Gymsports",
+          "total_score": 57.8,
+          "rank": 3,
+          "routine_scores": [
+            28.7,
+            29.1
+          ]
+        },
+        {
+          "athlete_id": "38",
+          "athlete_name": "Ella RAITERI",
+          "club": "Redland City Gymsports",
+          "total_score": 57.7,
+          "rank": 4,
+          "routine_scores": [
+            28.6,
+            29.1
+          ]
+        },
+        {
+          "athlete_id": "74",
+          "athlete_name": "Cariad JONES",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.7,
+          "rank": 5,
+          "routine_scores": [
+            28.8,
+            28.9
+          ]
+        },
+        {
+          "athlete_id": "69",
+          "athlete_name": "Charli JOHNSON",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.3,
+          "rank": 6,
+          "routine_scores": [
+            28.7,
+            28.6
+          ]
+        },
+        {
+          "athlete_id": "48",
+          "athlete_name": "Willow CHRISTALL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.1,
+          "rank": 7,
+          "routine_scores": [
+            28.4,
+            28.7
+          ]
+        },
+        {
+          "athlete_id": "6",
+          "athlete_name": "Matilda CAMPBELL",
+          "club": "Redland City Gymsports",
+          "total_score": 57.1,
+          "rank": 7,
+          "routine_scores": [
+            28.1,
+            29.0
+          ]
+        },
+        {
+          "athlete_id": "101",
+          "athlete_name": "Evelyn Candice WANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.1,
+          "rank": 9,
+          "routine_scores": [
+            28.5,
+            28.6
+          ]
+        },
+        {
+          "athlete_id": "94",
+          "athlete_name": "Alana RIZQALLAH",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 56.8,
+          "rank": 10,
+          "routine_scores": [
+            28.3,
+            28.5
+          ]
+        },
+        {
+          "athlete_id": "62",
+          "athlete_name": "Isabella COLUSSI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 56.6,
+          "rank": 11,
+          "routine_scores": [
+            28.2,
+            28.4
+          ]
+        },
+        {
+          "athlete_id": "84",
+          "athlete_name": "Ariana LEWIS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 54.8,
+          "rank": 12,
+          "routine_scores": [
+            27.3,
+            27.5
+          ]
+        },
+        {
+          "athlete_id": "98",
+          "athlete_name": "Marina TERRY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 53.4,
+          "rank": 13,
+          "routine_scores": [
+            26.5,
+            26.9
+          ]
+        },
+        {
+          "athlete_id": "79",
+          "athlete_name": "Reign LEOFA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 14,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "89",
+          "athlete_name": "Koharu MATTHEWS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 14,
+          "routine_scores": []
+        }
+      ]
+    },
+    "17": {
+      "id": "17",
+      "title": "Level 2_8U DMT Female",
+      "results": [
+        {
+          "athlete_id": "61",
+          "athlete_name": "Isla SAMIOS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.2,
+          "rank": 1,
+          "routine_scores": [
+            19.5,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "27",
+          "athlete_name": "Ruby MEIN",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.2,
+          "rank": 2,
+          "routine_scores": [
+            19.7,
+            19.5
+          ]
+        },
+        {
+          "athlete_id": "16",
+          "athlete_name": "Evelyn FODEN",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.0,
+          "rank": 3,
+          "routine_scores": [
+            19.6,
+            19.4
+          ]
+        },
+        {
+          "athlete_id": "40",
+          "athlete_name": "Caoimhe DOHERTY",
+          "club": "Redland City Gymsports",
+          "total_score": 38.7,
+          "rank": 4,
+          "routine_scores": [
+            19.2,
+            19.5
+          ]
+        },
+        {
+          "athlete_id": "53",
+          "athlete_name": "Sophia TAYLOR",
+          "club": "PCYC Queensland",
+          "total_score": 38.7,
+          "rank": 5,
+          "routine_scores": [
+            19.4,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "5",
+          "athlete_name": "Mila BOSKOVIC",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.3,
+          "rank": 6,
+          "routine_scores": [
+            18.9,
+            19.4
+          ]
+        },
+        {
+          "athlete_id": "68",
+          "athlete_name": "Evelyn VAGG",
+          "club": "Scenic Rim Trampoline Gymnastics",
+          "total_score": 36.5,
+          "rank": 7,
+          "routine_scores": [
+            19.4,
+            17.1
+          ]
+        }
+      ]
+    },
+    "5": {
+      "id": "5",
+      "title": "Level 2_8U TRP Female",
+      "results": [
+        {
+          "athlete_id": "5",
+          "athlete_name": "Mila BOSKOVIC",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.5,
+          "rank": 1,
+          "routine_scores": [
+            28.8,
+            28.7
+          ]
+        },
+        {
+          "athlete_id": "68",
+          "athlete_name": "Evelyn VAGG",
+          "club": "Scenic Rim Trampoline Gymnastics",
+          "total_score": 56.4,
+          "rank": 2,
+          "routine_scores": [
+            28.1,
+            28.3
+          ]
+        },
+        {
+          "athlete_id": "61",
+          "athlete_name": "Isla SAMIOS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 55.6,
+          "rank": 3,
+          "routine_scores": [
+            26.4,
+            29.2
+          ]
+        },
+        {
+          "athlete_id": "40",
+          "athlete_name": "Caoimhe DOHERTY",
+          "club": "Redland City Gymsports",
+          "total_score": 55.3,
+          "rank": 4,
+          "routine_scores": [
+            28.0,
+            27.3
+          ]
+        },
+        {
+          "athlete_id": "27",
+          "athlete_name": "Ruby MEIN",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 55.3,
+          "rank": 5,
+          "routine_scores": [
+            27.2,
+            28.1
+          ]
+        },
+        {
+          "athlete_id": "16",
+          "athlete_name": "Evelyn FODEN",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 54.1,
+          "rank": 6,
+          "routine_scores": [
+            25.7,
+            28.4
+          ]
+        },
+        {
+          "athlete_id": "53",
+          "athlete_name": "Sophia TAYLOR",
+          "club": "PCYC Queensland",
+          "total_score": 53.7,
+          "rank": 7,
+          "routine_scores": [
+            26.6,
+            27.1
+          ]
+        }
+      ]
+    },
+    "14": {
+      "id": "14",
+      "title": "Level 1 DMT Male",
+      "results": [
+        {
+          "athlete_id": "54",
+          "athlete_name": "George SIEGEL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.1,
+          "rank": 1,
+          "routine_scores": [
+            19.6,
+            19.5
+          ]
+        },
+        {
+          "athlete_id": "25",
+          "athlete_name": "Patrick MEAKIN",
+          "club": "Redland City Gymsports",
+          "total_score": 38.8,
+          "rank": 2,
+          "routine_scores": [
+            19.3,
+            19.5
+          ]
+        },
+        {
+          "athlete_id": "2",
+          "athlete_name": "Hugh BOND",
+          "club": "Redland City Gymsports",
+          "total_score": 38.1,
+          "rank": 3,
+          "routine_scores": [
+            19.2,
+            18.9
+          ]
+        },
+        {
+          "athlete_id": "45",
+          "athlete_name": "Michael SHEARER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.4,
+          "rank": 4,
+          "routine_scores": [
+            18.7,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "14",
+          "athlete_name": "Max BOND",
+          "club": "Redland City Gymsports",
+          "total_score": 37.0,
+          "rank": 5,
+          "routine_scores": [
+            17.6,
+            19.4
+          ]
+        },
+        {
+          "athlete_id": "35",
+          "athlete_name": "Remy RICHARDSON",
+          "club": "Redland City Gymsports",
+          "total_score": 36.9,
+          "rank": 6,
+          "routine_scores": [
+            17.6,
+            19.3
+          ]
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "title": "Level 1 TRP Male",
+      "results": [
+        {
+          "athlete_id": "25",
+          "athlete_name": "Patrick MEAKIN",
+          "club": "Redland City Gymsports",
+          "total_score": 56.4,
+          "rank": 1,
+          "routine_scores": [
+            27.8,
+            28.6
+          ]
+        },
+        {
+          "athlete_id": "54",
+          "athlete_name": "George SIEGEL",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 56.09,
+          "rank": 2,
+          "routine_scores": [
+            28.0,
+            28.09
+          ]
+        },
+        {
+          "athlete_id": "14",
+          "athlete_name": "Max BOND",
+          "club": "Redland City Gymsports",
+          "total_score": 55.7,
+          "rank": 3,
+          "routine_scores": [
+            28.0,
+            27.7
+          ]
+        },
+        {
+          "athlete_id": "35",
+          "athlete_name": "Remy RICHARDSON",
+          "club": "Redland City Gymsports",
+          "total_score": 55.7,
+          "rank": 3,
+          "routine_scores": [
+            27.8,
+            27.9
+          ]
+        },
+        {
+          "athlete_id": "2",
+          "athlete_name": "Hugh BOND",
+          "club": "Redland City Gymsports",
+          "total_score": 54.8,
+          "rank": 5,
+          "routine_scores": [
+            27.1,
+            27.7
+          ]
+        },
+        {
+          "athlete_id": "45",
+          "athlete_name": "Michael SHEARER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 27.1,
+          "rank": 6,
+          "routine_scores": [
+            27.1,
+            0.0
+          ]
+        }
+      ]
+    },
+    "8": {
+      "id": "8",
+      "title": "Level 2A TRP Male",
+      "results": [
+        {
+          "athlete_id": "46",
+          "athlete_name": "Alexander WADLEY",
+          "club": "Redland City Gymsports",
+          "total_score": 53.6,
+          "rank": 1,
+          "routine_scores": [
+            27.5,
+            26.1
+          ]
+        },
+        {
+          "athlete_id": "22",
+          "athlete_name": "Connor COWAN",
+          "club": "Redland City Gymsports",
+          "total_score": 53.0,
+          "rank": 2,
+          "routine_scores": [
+            27.4,
+            25.6
+          ]
+        },
+        {
+          "athlete_id": "55",
+          "athlete_name": "Elliot WALKER",
+          "club": "Redland City Gymsports",
+          "total_score": 52.8,
+          "rank": 3,
+          "routine_scores": [
+            27.3,
+            25.5
+          ]
+        },
+        {
+          "athlete_id": "32",
+          "athlete_name": "Sam FLUHART",
+          "club": "Redland City Gymsports",
+          "total_score": 51.3,
+          "rank": 4,
+          "routine_scores": [
+            27.1,
+            24.2
+          ]
+        },
+        {
+          "athlete_id": "11",
+          "athlete_name": "Alex BRAVEY",
+          "club": "Redland City Gymsports",
+          "total_score": 50.2,
+          "rank": 5,
+          "routine_scores": [
+            27.7,
+            22.5
+          ]
+        },
+        {
+          "athlete_id": "41",
+          "athlete_name": "Lewis HUMPHRIES",
+          "club": "Redland City Gymsports",
+          "total_score": 45.8,
+          "rank": 6,
+          "routine_scores": [
+            26.1,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "78",
+          "athlete_name": "John-Tyler HULME",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 41.5,
+          "rank": 7,
+          "routine_scores": [
+            18.9,
+            22.6
+          ]
+        },
+        {
+          "athlete_id": "65",
+          "athlete_name": "Liam KENNA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 32.8,
+          "rank": 8,
+          "routine_scores": [
+            24.7,
+            8.1
+          ]
+        },
+        {
+          "athlete_id": "72",
+          "athlete_name": "Darwin KOSASI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 9,
+          "routine_scores": []
+        }
+      ]
+    },
+    "20": {
+      "id": "20",
+      "title": "Level 2A DMT Male",
+      "results": [
+        {
+          "athlete_id": "65",
+          "athlete_name": "Liam KENNA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.4,
+          "rank": 1,
+          "routine_scores": [
+            19.6,
+            19.8
+          ]
+        },
+        {
+          "athlete_id": "55",
+          "athlete_name": "Elliot WALKER",
+          "club": "Redland City Gymsports",
+          "total_score": 38.7,
+          "rank": 2,
+          "routine_scores": [
+            19.3,
+            19.4
+          ]
+        },
+        {
+          "athlete_id": "32",
+          "athlete_name": "Sam FLUHART",
+          "club": "Redland City Gymsports",
+          "total_score": 38.5,
+          "rank": 3,
+          "routine_scores": [
+            19.2,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "46",
+          "athlete_name": "Alexander WADLEY",
+          "club": "Redland City Gymsports",
+          "total_score": 38.2,
+          "rank": 4,
+          "routine_scores": [
+            19.2,
+            19.0
+          ]
+        },
+        {
+          "athlete_id": "11",
+          "athlete_name": "Alex BRAVEY",
+          "club": "Redland City Gymsports",
+          "total_score": 37.8,
+          "rank": 5,
+          "routine_scores": [
+            19.3,
+            18.5
+          ]
+        },
+        {
+          "athlete_id": "22",
+          "athlete_name": "Connor COWAN",
+          "club": "Redland City Gymsports",
+          "total_score": 37.6,
+          "rank": 6,
+          "routine_scores": [
+            18.7,
+            18.9
+          ]
+        },
+        {
+          "athlete_id": "41",
+          "athlete_name": "Lewis HUMPHRIES",
+          "club": "Redland City Gymsports",
+          "total_score": 36.6,
+          "rank": 7,
+          "routine_scores": [
+            17.7,
+            18.9
+          ]
+        },
+        {
+          "athlete_id": "78",
+          "athlete_name": "John-Tyler HULME",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 19.1,
+          "rank": 8,
+          "routine_scores": [
+            0.0,
+            19.1
+          ]
+        },
+        {
+          "athlete_id": "72",
+          "athlete_name": "Darwin KOSASI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 9,
+          "routine_scores": []
+        }
+      ]
+    },
+    "10": {
+      "id": "10",
+      "title": "Level 3 TRP Female",
+      "results": [
+        {
+          "athlete_id": "33",
+          "athlete_name": "Scarlett STUMER",
+          "club": "Scenic Rim Trampoline Gymnastics",
+          "total_score": 59.5,
+          "rank": 1,
+          "routine_scores": [
+            28.6,
+            30.9
+          ]
+        },
+        {
+          "athlete_id": "87",
+          "athlete_name": "Paraw HAWRI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 59.4,
+          "rank": 2,
+          "routine_scores": [
+            28.8,
+            30.6
+          ]
+        },
+        {
+          "athlete_id": "23",
+          "athlete_name": "Nya TULACZ",
+          "club": "PCYC Queensland",
+          "total_score": 59.2,
+          "rank": 3,
+          "routine_scores": [
+            28.6,
+            30.6
+          ]
+        },
+        {
+          "athlete_id": "44",
+          "athlete_name": "Lucy DAVIES",
+          "club": "Redland City Gymsports",
+          "total_score": 59.0,
+          "rank": 4,
+          "routine_scores": [
+            29.0,
+            30.0
+          ]
+        },
+        {
+          "athlete_id": "67",
+          "athlete_name": "Katie SHARP",
+          "club": "Redland City Gymsports",
+          "total_score": 59.0,
+          "rank": 5,
+          "routine_scores": [
+            29.2,
+            29.8
+          ]
+        },
+        {
+          "athlete_id": "10",
+          "athlete_name": "Penelope MORRIS",
+          "club": "PCYC Queensland",
+          "total_score": 58.7,
+          "rank": 6,
+          "routine_scores": [
+            28.3,
+            30.4
+          ]
+        },
+        {
+          "athlete_id": "92",
+          "athlete_name": "Yuna KUCZMENDA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 50.2,
+          "rank": 7,
+          "routine_scores": [
+            20.0,
+            30.2
+          ]
+        },
+        {
+          "athlete_id": "80",
+          "athlete_name": "Ava TAKITAKI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 46.5,
+          "rank": 8,
+          "routine_scores": [
+            28.2,
+            18.3
+          ]
+        },
+        {
+          "athlete_id": "75",
+          "athlete_name": "Peyton SWANSON",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 42.8,
+          "rank": 9,
+          "routine_scores": [
+            27.9,
+            14.9
+          ]
+        },
+        {
+          "athlete_id": "52",
+          "athlete_name": "Isabella DOS SANTOS RICARDO",
+          "club": "Redland City Gymsports",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "60",
+          "athlete_name": "Ivy DOUGLASS",
+          "club": "Redland City Gymsports",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "95",
+          "athlete_name": "Lucy PRIEST",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        }
+      ]
+    },
+    "23": {
+      "id": "23",
+      "title": "Level 3 DMT Female",
+      "results": [
+        {
+          "athlete_id": "67",
+          "athlete_name": "Katie SHARP",
+          "club": "Redland City Gymsports",
+          "total_score": 40.4,
+          "rank": 1,
+          "routine_scores": [
+            20.6,
+            19.8
+          ]
+        },
+        {
+          "athlete_id": "44",
+          "athlete_name": "Lucy DAVIES",
+          "club": "Redland City Gymsports",
+          "total_score": 40.3,
+          "rank": 2,
+          "routine_scores": [
+            20.2,
+            20.1
+          ]
+        },
+        {
+          "athlete_id": "87",
+          "athlete_name": "Paraw HAWRI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 40.2,
+          "rank": 3,
+          "routine_scores": [
+            20.0,
+            20.2
+          ]
+        },
+        {
+          "athlete_id": "75",
+          "athlete_name": "Peyton SWANSON",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.8,
+          "rank": 4,
+          "routine_scores": [
+            19.8,
+            20.0
+          ]
+        },
+        {
+          "athlete_id": "92",
+          "athlete_name": "Yuna KUCZMENDA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.8,
+          "rank": 5,
+          "routine_scores": [
+            19.7,
+            20.1
+          ]
+        },
+        {
+          "athlete_id": "33",
+          "athlete_name": "Scarlett STUMER",
+          "club": "Scenic Rim Trampoline Gymnastics",
+          "total_score": 39.4,
+          "rank": 6,
+          "routine_scores": [
+            19.8,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "23",
+          "athlete_name": "Nya TULACZ",
+          "club": "PCYC Queensland",
+          "total_score": 39.2,
+          "rank": 7,
+          "routine_scores": [
+            19.9,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "10",
+          "athlete_name": "Penelope MORRIS",
+          "club": "PCYC Queensland",
+          "total_score": 37.7,
+          "rank": 8,
+          "routine_scores": [
+            19.7,
+            18.0
+          ]
+        },
+        {
+          "athlete_id": "80",
+          "athlete_name": "Ava TAKITAKI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.0,
+          "rank": 9,
+          "routine_scores": [
+            19.2,
+            17.8
+          ]
+        },
+        {
+          "athlete_id": "52",
+          "athlete_name": "Isabella DOS SANTOS RICARDO",
+          "club": "Redland City Gymsports",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "60",
+          "athlete_name": "Ivy DOUGLASS",
+          "club": "Redland City Gymsports",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        },
+        {
+          "athlete_id": "95",
+          "athlete_name": "Lucy PRIEST",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        }
+      ]
+    },
+    "35": {
+      "id": "35",
+      "title": "Level 3 TUM Female",
+      "results": [
+        {
+          "athlete_id": "33",
+          "athlete_name": "Scarlett STUMER",
+          "club": "Scenic Rim Trampoline Gymnastics",
+          "total_score": 37.9,
+          "rank": 1,
+          "routine_scores": [
+            18.9,
+            19.0
+          ]
+        },
+        {
+          "athlete_id": "275",
+          "athlete_name": "Elle VILLAZON",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.8,
+          "rank": 2,
+          "routine_scores": [
+            18.9,
+            18.9
+          ]
+        },
+        {
+          "athlete_id": "257",
+          "athlete_name": "Livia PROCOPIS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.7,
+          "rank": 3,
+          "routine_scores": [
+            18.8,
+            17.9
+          ]
+        },
+        {
+          "athlete_id": "264",
+          "athlete_name": "Shani RUSTEAU",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 36.0,
+          "rank": 4,
+          "routine_scores": [
+            18.1,
+            17.9
+          ]
+        },
+        {
+          "athlete_id": "270",
+          "athlete_name": "Ginger TAYLOR",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 35.8,
+          "rank": 5,
+          "routine_scores": [
+            18.2,
+            17.6
+          ]
+        },
+        {
+          "athlete_id": "80",
+          "athlete_name": "Ava TAKITAKI",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 35.7,
+          "rank": 6,
+          "routine_scores": [
+            17.7,
+            18.0
+          ]
+        },
+        {
+          "athlete_id": "233",
+          "athlete_name": "Savannah BARNA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 34.0,
+          "rank": 7,
+          "routine_scores": [
+            19.0,
+            15.0
+          ]
+        },
+        {
+          "athlete_id": "251",
+          "athlete_name": "Mei LEDERHOSE",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 33.3,
+          "rank": 8,
+          "routine_scores": [
+            18.5,
+            14.8
+          ]
+        },
+        {
+          "athlete_id": "20",
+          "athlete_name": "Amelia CHATFIELD",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 9,
+          "routine_scores": []
+        }
+      ]
+    },
+    "9": {
+      "id": "9",
+      "title": "Level 2A TRP Female",
+      "results": [
+        {
+          "athlete_id": "63",
+          "athlete_name": "Heidi FARMER",
+          "club": "Redland City Gymsports",
+          "total_score": 57.5,
+          "rank": 1,
+          "routine_scores": [
+            28.2,
+            29.3
+          ]
+        },
+        {
+          "athlete_id": "88",
+          "athlete_name": "Tara DOODNEY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.5,
+          "rank": 2,
+          "routine_scores": [
+            28.7,
+            28.8
+          ]
+        },
+        {
+          "athlete_id": "70",
+          "athlete_name": "Hollie PEARCE",
+          "club": "Redland City Gymsports",
+          "total_score": 57.4,
+          "rank": 3,
+          "routine_scores": [
+            28.6,
+            28.8
+          ]
+        },
+        {
+          "athlete_id": "110",
+          "athlete_name": "Chloe WANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 57.2,
+          "rank": 4,
+          "routine_scores": [
+            28.3,
+            28.9
+          ]
+        },
+        {
+          "athlete_id": "49",
+          "athlete_name": "Isla DAVIES",
+          "club": "Redland City Gymsports",
+          "total_score": 56.1,
+          "rank": 5,
+          "routine_scores": [
+            28.2,
+            27.9
+          ]
+        },
+        {
+          "athlete_id": "97",
+          "athlete_name": "Mckayla KRUGER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 55.9,
+          "rank": 6,
+          "routine_scores": [
+            28.0,
+            27.9
+          ]
+        },
+        {
+          "athlete_id": "7",
+          "athlete_name": "Aria BONNEY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 55.6,
+          "rank": 7,
+          "routine_scores": [
+            28.5,
+            27.1
+          ]
+        },
+        {
+          "athlete_id": "100",
+          "athlete_name": "Violet RAFTER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 55.5,
+          "rank": 8,
+          "routine_scores": [
+            28.3,
+            27.2
+          ]
+        },
+        {
+          "athlete_id": "42",
+          "athlete_name": "Charlotte BRAVEY",
+          "club": "Redland City Gymsports",
+          "total_score": 55.1,
+          "rank": 9,
+          "routine_scores": [
+            27.7,
+            27.4
+          ]
+        },
+        {
+          "athlete_id": "108",
+          "athlete_name": "Hayley TRUSS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 54.5,
+          "rank": 10,
+          "routine_scores": [
+            28.0,
+            26.5
+          ]
+        },
+        {
+          "athlete_id": "111",
+          "athlete_name": "Skylah WOODROW",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 54.5,
+          "rank": 10,
+          "routine_scores": [
+            27.8,
+            26.7
+          ]
+        },
+        {
+          "athlete_id": "77",
+          "athlete_name": "Libby BRODSKY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 54.5,
+          "rank": 12,
+          "routine_scores": [
+            27.0,
+            27.5
+          ]
+        },
+        {
+          "athlete_id": "106",
+          "athlete_name": "Riley RAUTENBACH",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 52.4,
+          "rank": 13,
+          "routine_scores": [
+            25.3,
+            27.1
+          ]
+        },
+        {
+          "athlete_id": "93",
+          "athlete_name": "Rubaiyat KHERHA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 51.8,
+          "rank": 14,
+          "routine_scores": [
+            25.1,
+            26.7
+          ]
+        },
+        {
+          "athlete_id": "57",
+          "athlete_name": "Sophie EUSTACE",
+          "club": "Redland City Gymsports",
+          "total_score": 50.6,
+          "rank": 15,
+          "routine_scores": [
+            26.9,
+            23.7
+          ]
+        },
+        {
+          "athlete_id": "104",
+          "athlete_name": "Sophia BOTHA",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 50.6,
+          "rank": 16,
+          "routine_scores": [
+            24.0,
+            26.6
+          ]
+        },
+        {
+          "athlete_id": "30",
+          "athlete_name": "Lacey GALLACHER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 46.8,
+          "rank": 17,
+          "routine_scores": [
+            27.9,
+            18.9
+          ]
+        },
+        {
+          "athlete_id": "83",
+          "athlete_name": "Claire CHAMPION",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.9,
+          "rank": 18,
+          "routine_scores": [
+            11.5,
+            26.4
+          ]
+        },
+        {
+          "athlete_id": "20",
+          "athlete_name": "Amelia CHATFIELD",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 19,
+          "routine_scores": []
+        }
+      ]
+    },
+    "21": {
+      "id": "21",
+      "title": "Level 2A DMT Female",
+      "results": [
+        {
+          "athlete_id": "88",
+          "athlete_name": "Tara DOODNEY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 40.0,
+          "rank": 1,
+          "routine_scores": [
+            19.9,
+            20.1
+          ]
+        },
+        {
+          "athlete_id": "110",
+          "athlete_name": "Chloe WANG",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.6,
+          "rank": 2,
+          "routine_scores": [
+            19.6,
+            20.0
+          ]
+        },
+        {
+          "athlete_id": "111",
+          "athlete_name": "Skylah WOODROW",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.6,
+          "rank": 3,
+          "routine_scores": [
+            19.9,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "100",
+          "athlete_name": "Violet RAFTER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.5,
+          "rank": 4,
+          "routine_scores": [
+            19.6,
+            19.9
+          ]
+        },
+        {
+          "athlete_id": "83",
+          "athlete_name": "Claire CHAMPION",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.4,
+          "rank": 5,
+          "routine_scores": [
+            19.3,
+            20.1
+          ]
+        },
+        {
+          "athlete_id": "97",
+          "athlete_name": "Mckayla KRUGER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.4,
+          "rank": 6,
+          "routine_scores": [
+            19.5,
+            19.9
+          ]
+        },
+        {
+          "athlete_id": "70",
+          "athlete_name": "Hollie PEARCE",
+          "club": "Redland City Gymsports",
+          "total_score": 39.2,
+          "rank": 7,
+          "routine_scores": [
+            19.9,
+            19.3
+          ]
+        },
+        {
+          "athlete_id": "42",
+          "athlete_name": "Charlotte BRAVEY",
+          "club": "Redland City Gymsports",
+          "total_score": 39.2,
+          "rank": 8,
+          "routine_scores": [
+            19.6,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "7",
+          "athlete_name": "Aria BONNEY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.2,
+          "rank": 9,
+          "routine_scores": [
+            19.5,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "93",
+          "athlete_name": "Rubaiyat KHERHA",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.0,
+          "rank": 10,
+          "routine_scores": [
+            19.5,
+            19.5
+          ]
+        },
+        {
+          "athlete_id": "63",
+          "athlete_name": "Heidi FARMER",
+          "club": "Redland City Gymsports",
+          "total_score": 39.0,
+          "rank": 11,
+          "routine_scores": [
+            19.6,
+            19.4
+          ]
+        },
+        {
+          "athlete_id": "108",
+          "athlete_name": "Hayley TRUSS",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 39.0,
+          "rank": 12,
+          "routine_scores": [
+            19.3,
+            19.7
+          ]
+        },
+        {
+          "athlete_id": "77",
+          "athlete_name": "Libby BRODSKY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.8,
+          "rank": 13,
+          "routine_scores": [
+            19.7,
+            19.1
+          ]
+        },
+        {
+          "athlete_id": "30",
+          "athlete_name": "Lacey GALLACHER",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 38.6,
+          "rank": 14,
+          "routine_scores": [
+            19.0,
+            19.6
+          ]
+        },
+        {
+          "athlete_id": "57",
+          "athlete_name": "Sophie EUSTACE",
+          "club": "Redland City Gymsports",
+          "total_score": 38.4,
+          "rank": 15,
+          "routine_scores": [
+            19.7,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "187",
+          "athlete_name": "Grace BEARDSLEY",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 37.9,
+          "rank": 16,
+          "routine_scores": [
+            19.4,
+            18.5
+          ]
+        },
+        {
+          "athlete_id": "104",
+          "athlete_name": "Sophia BOTHA",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 37.5,
+          "rank": 17,
+          "routine_scores": [
+            18.8,
+            18.7
+          ]
+        },
+        {
+          "athlete_id": "49",
+          "athlete_name": "Isla DAVIES",
+          "club": "Redland City Gymsports",
+          "total_score": 36.9,
+          "rank": 18,
+          "routine_scores": [
+            17.7,
+            19.2
+          ]
+        },
+        {
+          "athlete_id": "106",
+          "athlete_name": "Riley RAUTENBACH",
+          "club": "Brisbane City Gymnastics Club",
+          "total_score": 19.2,
+          "rank": 19,
+          "routine_scores": [
+            0.0,
+            19.2
+          ]
+        },
+        {
+          "athlete_id": "20",
+          "athlete_name": "Amelia CHATFIELD",
+          "club": "Robertson Gymnastics Club",
+          "total_score": 0.0,
+          "rank": 20,
+          "routine_scores": []
+        }
+      ]
+    }
+  },
+  "athletes": {
+    "24": {
+      "id": "24",
+      "name": "Theodore MARCHANT",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "16",
+          "competition_title": "Level 2_8U DMT Male",
+          "total_score": 38.5,
+          "rank": 1,
+          "routine_scores": [
+            19.2,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "4",
+          "competition_title": "Level 2_8U TRP Male",
+          "total_score": 54.6,
+          "rank": 1,
+          "routine_scores": [
+            27.2,
+            27.4
+          ]
+        },
+        {
+          "competition_id": "28",
+          "competition_title": "Level 2_8U TUM Male",
+          "total_score": 34.9,
+          "rank": 1,
+          "routine_scores": [
+            17.4,
+            17.5
+          ]
+        }
+      ]
+    },
+    "37": {
+      "id": "37",
+      "name": "Hamish LEAHY",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "16",
+          "competition_title": "Level 2_8U DMT Male",
+          "total_score": 36.3,
+          "rank": 2,
+          "routine_scores": [
+            17.4,
+            18.9
+          ]
+        },
+        {
+          "competition_id": "4",
+          "competition_title": "Level 2_8U TRP Male",
+          "total_score": 46.9,
+          "rank": 2,
+          "routine_scores": [
+            25.2,
+            21.7
+          ]
+        }
+      ]
+    },
+    "1": {
+      "id": "1",
+      "name": "Joshua KEYS",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "12",
+          "competition_title": "Level 1_8U DMT Male",
+          "total_score": 38.1,
+          "rank": 1,
+          "routine_scores": [
+            19.2,
+            18.9
+          ]
+        },
+        {
+          "competition_id": "0",
+          "competition_title": "Level 1_8U TRP Male",
+          "total_score": 56.1,
+          "rank": 1,
+          "routine_scores": [
+            27.9,
+            28.2
+          ]
+        }
+      ]
+    },
+    "18": {
+      "id": "18",
+      "name": "Edwin TREVENA",
+      "club": "Brisbane City Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "12",
+          "competition_title": "Level 1_8U DMT Male",
+          "total_score": 37.4,
+          "rank": 2,
+          "routine_scores": [
+            18.4,
+            19.0
+          ]
+        },
+        {
+          "competition_id": "0",
+          "competition_title": "Level 1_8U TRP Male",
+          "total_score": 55.4,
+          "rank": 2,
+          "routine_scores": [
+            27.8,
+            27.6
+          ]
+        },
+        {
+          "competition_id": "24",
+          "competition_title": "Level 1_8U TUM Male",
+          "total_score": 33.8,
+          "rank": 1,
+          "routine_scores": [
+            17.3,
+            16.5
+          ]
+        }
+      ]
+    },
+    "12": {
+      "id": "12",
+      "name": "Blake HAZLEWOOD",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "22",
+          "competition_title": "Level 3 DMT Male",
+          "total_score": 40.0,
+          "rank": 1,
+          "routine_scores": [
+            20.1,
+            19.9
+          ]
+        },
+        {
+          "competition_id": "11",
+          "competition_title": "Level 3 TRP Male",
+          "total_score": 58.2,
+          "rank": 2,
+          "routine_scores": [
+            28.3,
+            29.9
+          ]
+        }
+      ]
+    },
+    "26": {
+      "id": "26",
+      "name": "Jordan BELLAMY",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "22",
+          "competition_title": "Level 3 DMT Male",
+          "total_score": 38.8,
+          "rank": 3,
+          "routine_scores": [
+            19.1,
+            19.7
+          ]
+        },
+        {
+          "competition_id": "11",
+          "competition_title": "Level 3 TRP Male",
+          "total_score": 57.2,
+          "rank": 5,
+          "routine_scores": [
+            28.0,
+            29.2
+          ]
+        }
+      ]
+    },
+    "36": {
+      "id": "36",
+      "name": "Baxter RICHARDSON",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "22",
+          "competition_title": "Level 3 DMT Male",
+          "total_score": 38.8,
+          "rank": 4,
+          "routine_scores": [
+            19.3,
+            19.5
+          ]
+        },
+        {
+          "competition_id": "11",
+          "competition_title": "Level 3 TRP Male",
+          "total_score": 57.9,
+          "rank": 3,
+          "routine_scores": [
+            27.7,
+            30.2
+          ]
+        },
+        {
+          "competition_id": "34",
+          "competition_title": "Level 3 TUM Male",
+          "total_score": 35.1,
+          "rank": 1,
+          "routine_scores": [
+            17.6,
+            17.5
+          ]
+        }
+      ]
+    },
+    "47": {
+      "id": "47",
+      "name": "Lincoln BAYLEY",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "32",
+          "competition_title": "Level 2A TUM Male",
+          "total_score": 17.8,
+          "rank": 3,
+          "routine_scores": [
+            0.0,
+            17.8
+          ]
+        },
+        {
+          "competition_id": "22",
+          "competition_title": "Level 3 DMT Male",
+          "total_score": 38.6,
+          "rank": 5,
+          "routine_scores": [
+            19.3,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "11",
+          "competition_title": "Level 3 TRP Male",
+          "total_score": 57.8,
+          "rank": 4,
+          "routine_scores": [
+            28.3,
+            29.5
+          ]
+        }
+      ]
+    },
+    "56": {
+      "id": "56",
+      "name": "Isaac PAYNE",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "22",
+          "competition_title": "Level 3 DMT Male",
+          "total_score": 39.0,
+          "rank": 2,
+          "routine_scores": [
+            19.8,
+            19.2
+          ]
+        },
+        {
+          "competition_id": "11",
+          "competition_title": "Level 3 TRP Male",
+          "total_score": 58.6,
+          "rank": 1,
+          "routine_scores": [
+            28.5,
+            30.1
+          ]
+        }
+      ]
+    },
+    "102": {
+      "id": "102",
+      "name": "Erin CARROLL",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 19.7,
+          "rank": 14,
+          "routine_scores": [
+            19.7,
+            0.0
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 58.0,
+          "rank": 4,
+          "routine_scores": [
+            28.4,
+            29.6
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 36.8,
+          "rank": 1,
+          "routine_scores": [
+            18.3,
+            18.5
+          ]
+        }
+      ]
+    },
+    "105": {
+      "id": "105",
+      "name": "Gracie KING",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 38.4,
+          "rank": 9,
+          "routine_scores": [
+            19.1,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 26.0,
+          "rank": 13,
+          "routine_scores": [
+            11.3,
+            14.7
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 29.1,
+          "rank": 15,
+          "routine_scores": [
+            17.7,
+            11.4
+          ]
+        }
+      ]
+    },
+    "107": {
+      "id": "107",
+      "name": "Guinny NUTTALL",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 39.2,
+          "rank": 6,
+          "routine_scores": [
+            19.6,
+            19.6
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 57.3,
+          "rank": 7,
+          "routine_scores": [
+            28.5,
+            28.8
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 35.0,
+          "rank": 11,
+          "routine_scores": [
+            17.6,
+            17.4
+          ]
+        }
+      ]
+    },
+    "109": {
+      "id": "109",
+      "name": "Navya PATEL",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 39.3,
+          "rank": 4,
+          "routine_scores": [
+            19.6,
+            19.7
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 58.9,
+          "rank": 1,
+          "routine_scores": [
+            29.1,
+            29.8
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 36.0,
+          "rank": 9,
+          "routine_scores": [
+            18.0,
+            18.0
+          ]
+        }
+      ]
+    },
+    "21": {
+      "id": "21",
+      "name": "Eloise JONES",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 38.3,
+          "rank": 10,
+          "routine_scores": [
+            19.3,
+            19.0
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 57.4,
+          "rank": 6,
+          "routine_scores": [
+            28.0,
+            29.4
+          ]
+        }
+      ]
+    },
+    "34": {
+      "id": "34",
+      "name": "Aura GIBSON",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 19.1,
+          "rank": 16,
+          "routine_scores": [
+            19.1,
+            0.0
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 51.7,
+          "rank": 11,
+          "routine_scores": [
+            25.1,
+            26.6
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 29.3,
+          "rank": 14,
+          "routine_scores": [
+            17.7,
+            11.6
+          ]
+        }
+      ]
+    },
+    "43": {
+      "id": "43",
+      "name": "Amelia HOGER",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 37.3,
+          "rank": 13,
+          "routine_scores": [
+            19.6,
+            17.7
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 52.3,
+          "rank": 10,
+          "routine_scores": [
+            28.6,
+            23.7
+          ]
+        }
+      ]
+    },
+    "51": {
+      "id": "51",
+      "name": "Emily KEKEBO",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 39.0,
+          "rank": 7,
+          "routine_scores": [
+            19.8,
+            19.2
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 58.0,
+          "rank": 3,
+          "routine_scores": [
+            28.4,
+            29.6
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 36.3,
+          "rank": 3,
+          "routine_scores": [
+            18.4,
+            17.9
+          ]
+        }
+      ]
+    },
+    "59": {
+      "id": "59",
+      "name": "Acacia MACE",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 0.0,
+          "rank": 17,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 0.0,
+          "rank": 15,
+          "routine_scores": []
+        }
+      ]
+    },
+    "66": {
+      "id": "66",
+      "name": "Charlotte WHITTINGTON",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 39.5,
+          "rank": 2,
+          "routine_scores": [
+            19.9,
+            19.6
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 49.5,
+          "rank": 12,
+          "routine_scores": [
+            28.7,
+            20.8
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 36.1,
+          "rank": 7,
+          "routine_scores": [
+            18.2,
+            17.9
+          ]
+        }
+      ]
+    },
+    "73": {
+      "id": "73",
+      "name": "Chelsea WILSON",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 38.1,
+          "rank": 12,
+          "routine_scores": [
+            19.1,
+            19.0
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 20.5,
+          "rank": 14,
+          "routine_scores": [
+            11.5,
+            9.0
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 30.0,
+          "rank": 13,
+          "routine_scores": [
+            17.0,
+            13.0
+          ]
+        }
+      ]
+    },
+    "81": {
+      "id": "81",
+      "name": "Isla SI",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 39.3,
+          "rank": 3,
+          "routine_scores": [
+            19.7,
+            19.6
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 58.5,
+          "rank": 2,
+          "routine_scores": [
+            28.8,
+            29.7
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 33.3,
+          "rank": 12,
+          "routine_scores": [
+            18.3,
+            15.0
+          ]
+        }
+      ]
+    },
+    "85": {
+      "id": "85",
+      "name": "Fiona WANG",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 39.6,
+          "rank": 1,
+          "routine_scores": [
+            20.0,
+            19.6
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 55.5,
+          "rank": 8,
+          "routine_scores": [
+            28.7,
+            26.8
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 18.9,
+          "rank": 10,
+          "routine_scores": [
+            0.0,
+            18.9
+          ]
+        }
+      ]
+    },
+    "9": {
+      "id": "9",
+      "name": "Lillian BARBER",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 0.0,
+          "rank": 17,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 0.0,
+          "rank": 15,
+          "routine_scores": []
+        }
+      ]
+    },
+    "90": {
+      "id": "90",
+      "name": "Eliza WEE",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 39.3,
+          "rank": 5,
+          "routine_scores": [
+            19.6,
+            19.7
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 52.7,
+          "rank": 9,
+          "routine_scores": [
+            29.1,
+            23.6
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 36.8,
+          "rank": 7,
+          "routine_scores": [
+            18.5,
+            18.3
+          ]
+        }
+      ]
+    },
+    "96": {
+      "id": "96",
+      "name": "Angelique BONNET",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 38.3,
+          "rank": 11,
+          "routine_scores": [
+            18.5,
+            19.8
+          ]
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 57.5,
+          "rank": 5,
+          "routine_scores": [
+            28.3,
+            29.2
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 36.0,
+          "rank": 8,
+          "routine_scores": [
+            18.1,
+            17.9
+          ]
+        }
+      ]
+    },
+    "99": {
+      "id": "99",
+      "name": "Josie CARLISLE",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 0.0,
+          "rank": 13,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 0.0,
+          "rank": 17,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "7",
+          "competition_title": "Level 2 TRP Female",
+          "total_score": 0.0,
+          "rank": 15,
+          "routine_scores": []
+        }
+      ]
+    },
+    "19": {
+      "id": "19",
+      "name": "Leo PETIT",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "26",
+          "competition_title": "Level 1 TUM Male",
+          "total_score": 0.0,
+          "rank": 2,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "18",
+          "competition_title": "Level 2 DMT Male",
+          "total_score": 0.0,
+          "rank": 4,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "6",
+          "competition_title": "Level 2 TRP Male",
+          "total_score": 0.0,
+          "rank": 3,
+          "routine_scores": []
+        }
+      ]
+    },
+    "29": {
+      "id": "29",
+      "name": "Jasper WEE",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "18",
+          "competition_title": "Level 2 DMT Male",
+          "total_score": 37.3,
+          "rank": 3,
+          "routine_scores": [
+            19.6,
+            17.7
+          ]
+        },
+        {
+          "competition_id": "6",
+          "competition_title": "Level 2 TRP Male",
+          "total_score": 57.6,
+          "rank": 1,
+          "routine_scores": [
+            28.9,
+            28.7
+          ]
+        },
+        {
+          "competition_id": "30",
+          "competition_title": "Level 2 TUM Male",
+          "total_score": 36.4,
+          "rank": 1,
+          "routine_scores": [
+            18.0,
+            18.4
+          ]
+        }
+      ]
+    },
+    "8": {
+      "id": "8",
+      "name": "Mark MCKELL",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "18",
+          "competition_title": "Level 2 DMT Male",
+          "total_score": 38.8,
+          "rank": 1,
+          "routine_scores": [
+            19.6,
+            19.2
+          ]
+        },
+        {
+          "competition_id": "6",
+          "competition_title": "Level 2 TRP Male",
+          "total_score": 57.2,
+          "rank": 2,
+          "routine_scores": [
+            28.3,
+            28.9
+          ]
+        },
+        {
+          "competition_id": "30",
+          "competition_title": "Level 2 TUM Male",
+          "total_score": 28.6,
+          "rank": 3,
+          "routine_scores": [
+            17.1,
+            11.5
+          ]
+        }
+      ]
+    },
+    "15": {
+      "id": "15",
+      "name": "Cleo PIERCE",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 38.8,
+          "rank": 2,
+          "routine_scores": [
+            19.4,
+            19.4
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 57.4,
+          "rank": 1,
+          "routine_scores": [
+            28.4,
+            29.0
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 37.1,
+          "rank": 9,
+          "routine_scores": [
+            18.5,
+            18.6
+          ]
+        }
+      ]
+    },
+    "3": {
+      "id": "3",
+      "name": "Maia CHOO",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 37.7,
+          "rank": 7,
+          "routine_scores": [
+            17.7,
+            20.0
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 57.4,
+          "rank": 2,
+          "routine_scores": [
+            28.5,
+            28.9
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 37.6,
+          "rank": 7,
+          "routine_scores": [
+            18.3,
+            19.3
+          ]
+        }
+      ]
+    },
+    "31": {
+      "id": "31",
+      "name": "Rhyleigh HITCHCOCK",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 38.4,
+          "rank": 5,
+          "routine_scores": [
+            19.1,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 56.6,
+          "rank": 4,
+          "routine_scores": [
+            28.2,
+            28.4
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 37.0,
+          "rank": 12,
+          "routine_scores": [
+            18.6,
+            18.4
+          ]
+        }
+      ]
+    },
+    "39": {
+      "id": "39",
+      "name": "Ava NICHOLAS",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 37.1,
+          "rank": 10,
+          "routine_scores": [
+            19.2,
+            17.9
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 55.4,
+          "rank": 7,
+          "routine_scores": [
+            27.4,
+            28.0
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 37.2,
+          "rank": 8,
+          "routine_scores": [
+            18.7,
+            18.5
+          ]
+        }
+      ]
+    },
+    "50": {
+      "id": "50",
+      "name": "Elyssa LIM",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 36.4,
+          "rank": 11,
+          "routine_scores": [
+            18.7,
+            17.7
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 55.7,
+          "rank": 6,
+          "routine_scores": [
+            27.7,
+            28.0
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 36.5,
+          "rank": 13,
+          "routine_scores": [
+            18.0,
+            18.5
+          ]
+        }
+      ]
+    },
+    "58": {
+      "id": "58",
+      "name": "Adena MCGRATH",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 38.4,
+          "rank": 4,
+          "routine_scores": [
+            19.1,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 40.7,
+          "rank": 11,
+          "routine_scores": [
+            20.5,
+            20.2
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 38.0,
+          "rank": 5,
+          "routine_scores": [
+            18.9,
+            19.1
+          ]
+        }
+      ]
+    },
+    "64": {
+      "id": "64",
+      "name": "Willow MURRAY",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 38.4,
+          "rank": 3,
+          "routine_scores": [
+            19.3,
+            19.1
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 55.1,
+          "rank": 9,
+          "routine_scores": [
+            27.2,
+            27.9
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 38.7,
+          "rank": 3,
+          "routine_scores": [
+            19.3,
+            19.4
+          ]
+        }
+      ]
+    },
+    "71": {
+      "id": "71",
+      "name": "Kenzie OMBAO",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 0.0,
+          "rank": 12,
+          "routine_scores": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 51.7,
+          "rank": 10,
+          "routine_scores": [
+            24.9,
+            26.8
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 37.0,
+          "rank": 11,
+          "routine_scores": [
+            18.5,
+            18.5
+          ]
+        }
+      ]
+    },
+    "76": {
+      "id": "76",
+      "name": "Sereani RASOVA",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 39.2,
+          "rank": 1,
+          "routine_scores": [
+            19.5,
+            19.7
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 57.0,
+          "rank": 3,
+          "routine_scores": [
+            28.7,
+            28.3
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 38.9,
+          "rank": 2,
+          "routine_scores": [
+            19.4,
+            19.5
+          ]
+        }
+      ]
+    },
+    "82": {
+      "id": "82",
+      "name": "Henrietta SIEGEL",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 37.6,
+          "rank": 8,
+          "routine_scores": [
+            18.8,
+            18.8
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 55.3,
+          "rank": 8,
+          "routine_scores": [
+            27.5,
+            27.8
+          ]
+        },
+        {
+          "competition_id": "29",
+          "competition_title": "Level 2_8U TUM Female",
+          "total_score": 28.9,
+          "rank": 7,
+          "routine_scores": [
+            17.5,
+            11.4
+          ]
+        }
+      ]
+    },
+    "86": {
+      "id": "86",
+      "name": "Clara TANHAM",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 0.0,
+          "rank": 12,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 0.0,
+          "rank": 12,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "29",
+          "competition_title": "Level 2_8U TUM Female",
+          "total_score": 0.0,
+          "rank": 8,
+          "routine_scores": []
+        }
+      ]
+    },
+    "91": {
+      "id": "91",
+      "name": "Amelia WONG",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 37.9,
+          "rank": 6,
+          "routine_scores": [
+            18.9,
+            19.0
+          ]
+        },
+        {
+          "competition_id": "1",
+          "competition_title": "Level 1_8U TRP Female",
+          "total_score": 56.6,
+          "rank": 4,
+          "routine_scores": [
+            28.4,
+            28.2
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 37.8,
+          "rank": 6,
+          "routine_scores": [
+            19.1,
+            18.7
+          ]
+        }
+      ]
+    },
+    "101": {
+      "id": "101",
+      "name": "Evelyn Candice WANG",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 38.8,
+          "rank": 7,
+          "routine_scores": [
+            19.4,
+            19.4
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 57.1,
+          "rank": 9,
+          "routine_scores": [
+            28.5,
+            28.6
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 38.9,
+          "rank": 2,
+          "routine_scores": [
+            19.7,
+            19.2
+          ]
+        }
+      ]
+    },
+    "103": {
+      "id": "103",
+      "name": "Gemma YANG",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 39.0,
+          "rank": 4,
+          "routine_scores": [
+            19.4,
+            19.6
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 58.2,
+          "rank": 1,
+          "routine_scores": [
+            29.0,
+            29.2
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 37.9,
+          "rank": 6,
+          "routine_scores": [
+            18.8,
+            19.1
+          ]
+        }
+      ]
+    },
+    "17": {
+      "id": "17",
+      "name": "Pippa HILLIARD",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 38.4,
+          "rank": 9,
+          "routine_scores": [
+            19.4,
+            19.0
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 57.8,
+          "rank": 3,
+          "routine_scores": [
+            28.7,
+            29.1
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 37.6,
+          "rank": 7,
+          "routine_scores": [
+            19.3,
+            18.3
+          ]
+        }
+      ]
+    },
+    "28": {
+      "id": "28",
+      "name": "Tegan PEROVIC",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 38.7,
+          "rank": 8,
+          "routine_scores": [
+            19.4,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 57.8,
+          "rank": 2,
+          "routine_scores": [
+            28.7,
+            29.1
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 37.3,
+          "rank": 10,
+          "routine_scores": [
+            18.8,
+            18.5
+          ]
+        }
+      ]
+    },
+    "38": {
+      "id": "38",
+      "name": "Ella RAITERI",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 37.7,
+          "rank": 11,
+          "routine_scores": [
+            19.4,
+            18.3
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 57.7,
+          "rank": 4,
+          "routine_scores": [
+            28.6,
+            29.1
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 37.1,
+          "rank": 11,
+          "routine_scores": [
+            18.6,
+            18.5
+          ]
+        }
+      ]
+    },
+    "48": {
+      "id": "48",
+      "name": "Willow CHRISTALL",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 39.0,
+          "rank": 4,
+          "routine_scores": [
+            19.4,
+            19.6
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 57.1,
+          "rank": 7,
+          "routine_scores": [
+            28.4,
+            28.7
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 39.3,
+          "rank": 1,
+          "routine_scores": [
+            19.7,
+            19.6
+          ]
+        }
+      ]
+    },
+    "6": {
+      "id": "6",
+      "name": "Matilda CAMPBELL",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 39.1,
+          "rank": 3,
+          "routine_scores": [
+            19.3,
+            19.8
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 57.1,
+          "rank": 7,
+          "routine_scores": [
+            28.1,
+            29.0
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 37.5,
+          "rank": 9,
+          "routine_scores": [
+            18.7,
+            18.8
+          ]
+        }
+      ]
+    },
+    "62": {
+      "id": "62",
+      "name": "Isabella COLUSSI",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 38.3,
+          "rank": 10,
+          "routine_scores": [
+            19.3,
+            19.0
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 56.6,
+          "rank": 11,
+          "routine_scores": [
+            28.2,
+            28.4
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 38.5,
+          "rank": 4,
+          "routine_scores": [
+            19.4,
+            19.1
+          ]
+        }
+      ]
+    },
+    "69": {
+      "id": "69",
+      "name": "Charli JOHNSON",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 38.8,
+          "rank": 6,
+          "routine_scores": [
+            19.2,
+            19.6
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 57.3,
+          "rank": 6,
+          "routine_scores": [
+            28.7,
+            28.6
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 37.5,
+          "rank": 8,
+          "routine_scores": [
+            18.9,
+            18.6
+          ]
+        }
+      ]
+    },
+    "74": {
+      "id": "74",
+      "name": "Cariad JONES",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 39.1,
+          "rank": 2,
+          "routine_scores": [
+            19.4,
+            19.7
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 57.7,
+          "rank": 5,
+          "routine_scores": [
+            28.8,
+            28.9
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 36.2,
+          "rank": 6,
+          "routine_scores": [
+            18.1,
+            18.1
+          ]
+        }
+      ]
+    },
+    "79": {
+      "id": "79",
+      "name": "Reign LEOFA",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 0.0,
+          "rank": 14,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 0.0,
+          "rank": 14,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 0.0,
+          "rank": 17,
+          "routine_scores": []
+        }
+      ]
+    },
+    "84": {
+      "id": "84",
+      "name": "Ariana LEWIS",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 18.5,
+          "rank": 13,
+          "routine_scores": [
+            0.0,
+            18.5
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 54.8,
+          "rank": 12,
+          "routine_scores": [
+            27.3,
+            27.5
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 38.1,
+          "rank": 5,
+          "routine_scores": [
+            19.3,
+            18.8
+          ]
+        }
+      ]
+    },
+    "89": {
+      "id": "89",
+      "name": "Koharu MATTHEWS",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 0.0,
+          "rank": 14,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 0.0,
+          "rank": 14,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 0.0,
+          "rank": 17,
+          "routine_scores": []
+        }
+      ]
+    },
+    "94": {
+      "id": "94",
+      "name": "Alana RIZQALLAH",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 39.2,
+          "rank": 1,
+          "routine_scores": [
+            19.5,
+            19.7
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 56.8,
+          "rank": 10,
+          "routine_scores": [
+            28.3,
+            28.5
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 38.7,
+          "rank": 3,
+          "routine_scores": [
+            19.5,
+            19.2
+          ]
+        }
+      ]
+    },
+    "98": {
+      "id": "98",
+      "name": "Marina TERRY",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "15",
+          "competition_title": "Level 1 DMT Female",
+          "total_score": 19.3,
+          "rank": 12,
+          "routine_scores": [
+            0.0,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "3",
+          "competition_title": "Level 1 TRP Female",
+          "total_score": 53.4,
+          "rank": 13,
+          "routine_scores": [
+            26.5,
+            26.9
+          ]
+        },
+        {
+          "competition_id": "27",
+          "competition_title": "Level 1 TUM Female",
+          "total_score": 36.3,
+          "rank": 12,
+          "routine_scores": [
+            18.6,
+            17.7
+          ]
+        }
+      ]
+    },
+    "16": {
+      "id": "16",
+      "name": "Evelyn FODEN",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "17",
+          "competition_title": "Level 2_8U DMT Female",
+          "total_score": 39.0,
+          "rank": 3,
+          "routine_scores": [
+            19.6,
+            19.4
+          ]
+        },
+        {
+          "competition_id": "5",
+          "competition_title": "Level 2_8U TRP Female",
+          "total_score": 54.1,
+          "rank": 6,
+          "routine_scores": [
+            25.7,
+            28.4
+          ]
+        },
+        {
+          "competition_id": "29",
+          "competition_title": "Level 2_8U TUM Female",
+          "total_score": 37.3,
+          "rank": 3,
+          "routine_scores": [
+            18.6,
+            18.7
+          ]
+        }
+      ]
+    },
+    "27": {
+      "id": "27",
+      "name": "Ruby MEIN",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "17",
+          "competition_title": "Level 2_8U DMT Female",
+          "total_score": 39.2,
+          "rank": 2,
+          "routine_scores": [
+            19.7,
+            19.5
+          ]
+        },
+        {
+          "competition_id": "5",
+          "competition_title": "Level 2_8U TRP Female",
+          "total_score": 55.3,
+          "rank": 5,
+          "routine_scores": [
+            27.2,
+            28.1
+          ]
+        },
+        {
+          "competition_id": "29",
+          "competition_title": "Level 2_8U TUM Female",
+          "total_score": 37.5,
+          "rank": 2,
+          "routine_scores": [
+            19.0,
+            18.5
+          ]
+        }
+      ]
+    },
+    "40": {
+      "id": "40",
+      "name": "Caoimhe DOHERTY",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "17",
+          "competition_title": "Level 2_8U DMT Female",
+          "total_score": 38.7,
+          "rank": 4,
+          "routine_scores": [
+            19.2,
+            19.5
+          ]
+        },
+        {
+          "competition_id": "5",
+          "competition_title": "Level 2_8U TRP Female",
+          "total_score": 55.3,
+          "rank": 4,
+          "routine_scores": [
+            28.0,
+            27.3
+          ]
+        },
+        {
+          "competition_id": "29",
+          "competition_title": "Level 2_8U TUM Female",
+          "total_score": 36.1,
+          "rank": 6,
+          "routine_scores": [
+            17.8,
+            18.3
+          ]
+        }
+      ]
+    },
+    "5": {
+      "id": "5",
+      "name": "Mila BOSKOVIC",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "17",
+          "competition_title": "Level 2_8U DMT Female",
+          "total_score": 38.3,
+          "rank": 6,
+          "routine_scores": [
+            18.9,
+            19.4
+          ]
+        },
+        {
+          "competition_id": "5",
+          "competition_title": "Level 2_8U TRP Female",
+          "total_score": 57.5,
+          "rank": 1,
+          "routine_scores": [
+            28.8,
+            28.7
+          ]
+        },
+        {
+          "competition_id": "29",
+          "competition_title": "Level 2_8U TUM Female",
+          "total_score": 38.0,
+          "rank": 1,
+          "routine_scores": [
+            19.0,
+            19.0
+          ]
+        }
+      ]
+    },
+    "53": {
+      "id": "53",
+      "name": "Sophia TAYLOR",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 39.0,
+          "rank": 1,
+          "routine_scores": [
+            19.5,
+            19.5
+          ]
+        },
+        {
+          "competition_id": "17",
+          "competition_title": "Level 2_8U DMT Female",
+          "total_score": 38.7,
+          "rank": 5,
+          "routine_scores": [
+            19.4,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "5",
+          "competition_title": "Level 2_8U TRP Female",
+          "total_score": 53.7,
+          "rank": 7,
+          "routine_scores": [
+            26.6,
+            27.1
+          ]
+        }
+      ]
+    },
+    "61": {
+      "id": "61",
+      "name": "Isla SAMIOS",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "17",
+          "competition_title": "Level 2_8U DMT Female",
+          "total_score": 39.2,
+          "rank": 1,
+          "routine_scores": [
+            19.5,
+            19.7
+          ]
+        },
+        {
+          "competition_id": "5",
+          "competition_title": "Level 2_8U TRP Female",
+          "total_score": 55.6,
+          "rank": 3,
+          "routine_scores": [
+            26.4,
+            29.2
+          ]
+        },
+        {
+          "competition_id": "29",
+          "competition_title": "Level 2_8U TUM Female",
+          "total_score": 37.2,
+          "rank": 4,
+          "routine_scores": [
+            18.5,
+            18.7
+          ]
+        }
+      ]
+    },
+    "68": {
+      "id": "68",
+      "name": "Evelyn VAGG",
+      "club": "Scenic Rim Trampoline Gymnastics",
+      "results": [
+        {
+          "competition_id": "17",
+          "competition_title": "Level 2_8U DMT Female",
+          "total_score": 36.5,
+          "rank": 7,
+          "routine_scores": [
+            19.4,
+            17.1
+          ]
+        },
+        {
+          "competition_id": "5",
+          "competition_title": "Level 2_8U TRP Female",
+          "total_score": 56.4,
+          "rank": 2,
+          "routine_scores": [
+            28.1,
+            28.3
+          ]
+        },
+        {
+          "competition_id": "29",
+          "competition_title": "Level 2_8U TUM Female",
+          "total_score": 36.7,
+          "rank": 5,
+          "routine_scores": [
+            18.2,
+            18.5
+          ]
+        }
+      ]
+    },
+    "160": {
+      "id": "160",
+      "name": "Parnika KONERU",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "13",
+          "competition_title": "Level 1_8U DMT Female",
+          "total_score": 37.4,
+          "rank": 9,
+          "routine_scores": [
+            18.8,
+            18.6
+          ]
+        },
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 37.0,
+          "rank": 10,
+          "routine_scores": [
+            18.3,
+            18.7
+          ]
+        }
+      ]
+    },
+    "14": {
+      "id": "14",
+      "name": "Max BOND",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "14",
+          "competition_title": "Level 1 DMT Male",
+          "total_score": 37.0,
+          "rank": 5,
+          "routine_scores": [
+            17.6,
+            19.4
+          ]
+        },
+        {
+          "competition_id": "2",
+          "competition_title": "Level 1 TRP Male",
+          "total_score": 55.7,
+          "rank": 3,
+          "routine_scores": [
+            28.0,
+            27.7
+          ]
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "name": "Hugh BOND",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "14",
+          "competition_title": "Level 1 DMT Male",
+          "total_score": 38.1,
+          "rank": 3,
+          "routine_scores": [
+            19.2,
+            18.9
+          ]
+        },
+        {
+          "competition_id": "2",
+          "competition_title": "Level 1 TRP Male",
+          "total_score": 54.8,
+          "rank": 5,
+          "routine_scores": [
+            27.1,
+            27.7
+          ]
+        }
+      ]
+    },
+    "25": {
+      "id": "25",
+      "name": "Patrick MEAKIN",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "14",
+          "competition_title": "Level 1 DMT Male",
+          "total_score": 38.8,
+          "rank": 2,
+          "routine_scores": [
+            19.3,
+            19.5
+          ]
+        },
+        {
+          "competition_id": "2",
+          "competition_title": "Level 1 TRP Male",
+          "total_score": 56.4,
+          "rank": 1,
+          "routine_scores": [
+            27.8,
+            28.6
+          ]
+        }
+      ]
+    },
+    "35": {
+      "id": "35",
+      "name": "Remy RICHARDSON",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "14",
+          "competition_title": "Level 1 DMT Male",
+          "total_score": 36.9,
+          "rank": 6,
+          "routine_scores": [
+            17.6,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "2",
+          "competition_title": "Level 1 TRP Male",
+          "total_score": 55.7,
+          "rank": 3,
+          "routine_scores": [
+            27.8,
+            27.9
+          ]
+        }
+      ]
+    },
+    "45": {
+      "id": "45",
+      "name": "Michael SHEARER",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "14",
+          "competition_title": "Level 1 DMT Male",
+          "total_score": 37.4,
+          "rank": 4,
+          "routine_scores": [
+            18.7,
+            18.7
+          ]
+        },
+        {
+          "competition_id": "2",
+          "competition_title": "Level 1 TRP Male",
+          "total_score": 27.1,
+          "rank": 6,
+          "routine_scores": [
+            27.1,
+            0.0
+          ]
+        },
+        {
+          "competition_id": "26",
+          "competition_title": "Level 1 TUM Male",
+          "total_score": 35.0,
+          "rank": 1,
+          "routine_scores": [
+            16.8,
+            18.2
+          ]
+        }
+      ]
+    },
+    "54": {
+      "id": "54",
+      "name": "George SIEGEL",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "14",
+          "competition_title": "Level 1 DMT Male",
+          "total_score": 39.1,
+          "rank": 1,
+          "routine_scores": [
+            19.6,
+            19.5
+          ]
+        },
+        {
+          "competition_id": "2",
+          "competition_title": "Level 1 TRP Male",
+          "total_score": 56.09,
+          "rank": 2,
+          "routine_scores": [
+            28.0,
+            28.09
+          ]
+        },
+        {
+          "competition_id": "30",
+          "competition_title": "Level 2 TUM Male",
+          "total_score": 26.0,
+          "rank": 4,
+          "routine_scores": [
+            14.5,
+            11.5
+          ]
+        }
+      ]
+    },
+    "128": {
+      "id": "128",
+      "name": "Joel BOTHA",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "18",
+          "competition_title": "Level 2 DMT Male",
+          "total_score": 38.6,
+          "rank": 2,
+          "routine_scores": [
+            19.3,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "30",
+          "competition_title": "Level 2 TUM Male",
+          "total_score": 35.1,
+          "rank": 2,
+          "routine_scores": [
+            17.7,
+            17.4
+          ]
+        }
+      ]
+    },
+    "11": {
+      "id": "11",
+      "name": "Alex BRAVEY",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "20",
+          "competition_title": "Level 2A DMT Male",
+          "total_score": 37.8,
+          "rank": 5,
+          "routine_scores": [
+            19.3,
+            18.5
+          ]
+        },
+        {
+          "competition_id": "8",
+          "competition_title": "Level 2A TRP Male",
+          "total_score": 50.2,
+          "rank": 5,
+          "routine_scores": [
+            27.7,
+            22.5
+          ]
+        }
+      ]
+    },
+    "22": {
+      "id": "22",
+      "name": "Connor COWAN",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "20",
+          "competition_title": "Level 2A DMT Male",
+          "total_score": 37.6,
+          "rank": 6,
+          "routine_scores": [
+            18.7,
+            18.9
+          ]
+        },
+        {
+          "competition_id": "8",
+          "competition_title": "Level 2A TRP Male",
+          "total_score": 53.0,
+          "rank": 2,
+          "routine_scores": [
+            27.4,
+            25.6
+          ]
+        }
+      ]
+    },
+    "32": {
+      "id": "32",
+      "name": "Sam FLUHART",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "20",
+          "competition_title": "Level 2A DMT Male",
+          "total_score": 38.5,
+          "rank": 3,
+          "routine_scores": [
+            19.2,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "8",
+          "competition_title": "Level 2A TRP Male",
+          "total_score": 51.3,
+          "rank": 4,
+          "routine_scores": [
+            27.1,
+            24.2
+          ]
+        }
+      ]
+    },
+    "41": {
+      "id": "41",
+      "name": "Lewis HUMPHRIES",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "20",
+          "competition_title": "Level 2A DMT Male",
+          "total_score": 36.6,
+          "rank": 7,
+          "routine_scores": [
+            17.7,
+            18.9
+          ]
+        },
+        {
+          "competition_id": "8",
+          "competition_title": "Level 2A TRP Male",
+          "total_score": 45.8,
+          "rank": 6,
+          "routine_scores": [
+            26.1,
+            19.7
+          ]
+        }
+      ]
+    },
+    "46": {
+      "id": "46",
+      "name": "Alexander WADLEY",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "20",
+          "competition_title": "Level 2A DMT Male",
+          "total_score": 38.2,
+          "rank": 4,
+          "routine_scores": [
+            19.2,
+            19.0
+          ]
+        },
+        {
+          "competition_id": "8",
+          "competition_title": "Level 2A TRP Male",
+          "total_score": 53.6,
+          "rank": 1,
+          "routine_scores": [
+            27.5,
+            26.1
+          ]
+        }
+      ]
+    },
+    "55": {
+      "id": "55",
+      "name": "Elliot WALKER",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "20",
+          "competition_title": "Level 2A DMT Male",
+          "total_score": 38.7,
+          "rank": 2,
+          "routine_scores": [
+            19.3,
+            19.4
+          ]
+        },
+        {
+          "competition_id": "8",
+          "competition_title": "Level 2A TRP Male",
+          "total_score": 52.8,
+          "rank": 3,
+          "routine_scores": [
+            27.3,
+            25.5
+          ]
+        },
+        {
+          "competition_id": "32",
+          "competition_title": "Level 2A TUM Male",
+          "total_score": 23.0,
+          "rank": 2,
+          "routine_scores": [
+            11.5,
+            11.5
+          ]
+        }
+      ]
+    },
+    "65": {
+      "id": "65",
+      "name": "Liam KENNA",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "20",
+          "competition_title": "Level 2A DMT Male",
+          "total_score": 39.4,
+          "rank": 1,
+          "routine_scores": [
+            19.6,
+            19.8
+          ]
+        },
+        {
+          "competition_id": "8",
+          "competition_title": "Level 2A TRP Male",
+          "total_score": 32.8,
+          "rank": 8,
+          "routine_scores": [
+            24.7,
+            8.1
+          ]
+        },
+        {
+          "competition_id": "32",
+          "competition_title": "Level 2A TUM Male",
+          "total_score": 36.0,
+          "rank": 1,
+          "routine_scores": [
+            18.0,
+            18.0
+          ]
+        }
+      ]
+    },
+    "72": {
+      "id": "72",
+      "name": "Darwin KOSASI",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "20",
+          "competition_title": "Level 2A DMT Male",
+          "total_score": 0.0,
+          "rank": 9,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "8",
+          "competition_title": "Level 2A TRP Male",
+          "total_score": 0.0,
+          "rank": 9,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "32",
+          "competition_title": "Level 2A TUM Male",
+          "total_score": 0.0,
+          "rank": 4,
+          "routine_scores": []
+        }
+      ]
+    },
+    "78": {
+      "id": "78",
+      "name": "John-Tyler HULME",
+      "club": "Brisbane City Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "20",
+          "competition_title": "Level 2A DMT Male",
+          "total_score": 19.1,
+          "rank": 8,
+          "routine_scores": [
+            0.0,
+            19.1
+          ]
+        },
+        {
+          "competition_id": "8",
+          "competition_title": "Level 2A TRP Male",
+          "total_score": 41.5,
+          "rank": 7,
+          "routine_scores": [
+            18.9,
+            22.6
+          ]
+        }
+      ]
+    },
+    "205": {
+      "id": "205",
+      "name": "Lacey BAMBERRY",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 19.3,
+          "rank": 15,
+          "routine_scores": [
+            0.0,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 35.9,
+          "rank": 10,
+          "routine_scores": [
+            18.0,
+            17.9
+          ]
+        }
+      ]
+    },
+    "218": {
+      "id": "218",
+      "name": "Ava HODDA",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "19",
+          "competition_title": "Level 2 DMT Female",
+          "total_score": 38.8,
+          "rank": 8,
+          "routine_scores": [
+            19.4,
+            19.4
+          ]
+        },
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 36.3,
+          "rank": 5,
+          "routine_scores": [
+            18.2,
+            18.1
+          ]
+        }
+      ]
+    },
+    "10": {
+      "id": "10",
+      "name": "Penelope MORRIS",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 37.7,
+          "rank": 8,
+          "routine_scores": [
+            19.7,
+            18.0
+          ]
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 58.7,
+          "rank": 6,
+          "routine_scores": [
+            28.3,
+            30.4
+          ]
+        }
+      ]
+    },
+    "23": {
+      "id": "23",
+      "name": "Nya TULACZ",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 39.2,
+          "rank": 7,
+          "routine_scores": [
+            19.9,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 59.2,
+          "rank": 3,
+          "routine_scores": [
+            28.6,
+            30.6
+          ]
+        }
+      ]
+    },
+    "33": {
+      "id": "33",
+      "name": "Scarlett STUMER",
+      "club": "Scenic Rim Trampoline Gymnastics",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 39.4,
+          "rank": 6,
+          "routine_scores": [
+            19.8,
+            19.6
+          ]
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 59.5,
+          "rank": 1,
+          "routine_scores": [
+            28.6,
+            30.9
+          ]
+        },
+        {
+          "competition_id": "35",
+          "competition_title": "Level 3 TUM Female",
+          "total_score": 37.9,
+          "rank": 1,
+          "routine_scores": [
+            18.9,
+            19.0
+          ]
+        }
+      ]
+    },
+    "44": {
+      "id": "44",
+      "name": "Lucy DAVIES",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 40.3,
+          "rank": 2,
+          "routine_scores": [
+            20.2,
+            20.1
+          ]
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 59.0,
+          "rank": 4,
+          "routine_scores": [
+            29.0,
+            30.0
+          ]
+        }
+      ]
+    },
+    "52": {
+      "id": "52",
+      "name": "Isabella DOS SANTOS RICARDO",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        }
+      ]
+    },
+    "60": {
+      "id": "60",
+      "name": "Ivy DOUGLASS",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        }
+      ]
+    },
+    "67": {
+      "id": "67",
+      "name": "Katie SHARP",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 40.4,
+          "rank": 1,
+          "routine_scores": [
+            20.6,
+            19.8
+          ]
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 59.0,
+          "rank": 5,
+          "routine_scores": [
+            29.2,
+            29.8
+          ]
+        }
+      ]
+    },
+    "75": {
+      "id": "75",
+      "name": "Peyton SWANSON",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 39.8,
+          "rank": 4,
+          "routine_scores": [
+            19.8,
+            20.0
+          ]
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 42.8,
+          "rank": 9,
+          "routine_scores": [
+            27.9,
+            14.9
+          ]
+        }
+      ]
+    },
+    "80": {
+      "id": "80",
+      "name": "Ava TAKITAKI",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 37.0,
+          "rank": 9,
+          "routine_scores": [
+            19.2,
+            17.8
+          ]
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 46.5,
+          "rank": 8,
+          "routine_scores": [
+            28.2,
+            18.3
+          ]
+        },
+        {
+          "competition_id": "35",
+          "competition_title": "Level 3 TUM Female",
+          "total_score": 35.7,
+          "rank": 6,
+          "routine_scores": [
+            17.7,
+            18.0
+          ]
+        }
+      ]
+    },
+    "87": {
+      "id": "87",
+      "name": "Paraw HAWRI",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 40.2,
+          "rank": 3,
+          "routine_scores": [
+            20.0,
+            20.2
+          ]
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 59.4,
+          "rank": 2,
+          "routine_scores": [
+            28.8,
+            30.6
+          ]
+        }
+      ]
+    },
+    "92": {
+      "id": "92",
+      "name": "Yuna KUCZMENDA",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 39.8,
+          "rank": 5,
+          "routine_scores": [
+            19.7,
+            20.1
+          ]
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 50.2,
+          "rank": 7,
+          "routine_scores": [
+            20.0,
+            30.2
+          ]
+        }
+      ]
+    },
+    "95": {
+      "id": "95",
+      "name": "Lucy PRIEST",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "23",
+          "competition_title": "Level 3 DMT Female",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "10",
+          "competition_title": "Level 3 TRP Female",
+          "total_score": 0.0,
+          "rank": 10,
+          "routine_scores": []
+        }
+      ]
+    },
+    "100": {
+      "id": "100",
+      "name": "Violet RAFTER",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.5,
+          "rank": 4,
+          "routine_scores": [
+            19.6,
+            19.9
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 55.5,
+          "rank": 8,
+          "routine_scores": [
+            28.3,
+            27.2
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 18.4,
+          "rank": 14,
+          "routine_scores": [
+            0.0,
+            18.4
+          ]
+        }
+      ]
+    },
+    "104": {
+      "id": "104",
+      "name": "Sophia BOTHA",
+      "club": "Brisbane City Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 37.5,
+          "rank": 17,
+          "routine_scores": [
+            18.8,
+            18.7
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 50.6,
+          "rank": 16,
+          "routine_scores": [
+            24.0,
+            26.6
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 18.7,
+          "rank": 13,
+          "routine_scores": [
+            0.0,
+            18.7
+          ]
+        }
+      ]
+    },
+    "106": {
+      "id": "106",
+      "name": "Riley RAUTENBACH",
+      "club": "Brisbane City Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 19.2,
+          "rank": 19,
+          "routine_scores": [
+            0.0,
+            19.2
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 52.4,
+          "rank": 13,
+          "routine_scores": [
+            25.3,
+            27.1
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 18.7,
+          "rank": 12,
+          "routine_scores": [
+            0.0,
+            18.7
+          ]
+        }
+      ]
+    },
+    "108": {
+      "id": "108",
+      "name": "Hayley TRUSS",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.0,
+          "rank": 12,
+          "routine_scores": [
+            19.3,
+            19.7
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 54.5,
+          "rank": 10,
+          "routine_scores": [
+            28.0,
+            26.5
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 37.4,
+          "rank": 3,
+          "routine_scores": [
+            18.7,
+            18.7
+          ]
+        }
+      ]
+    },
+    "110": {
+      "id": "110",
+      "name": "Chloe WANG",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.6,
+          "rank": 2,
+          "routine_scores": [
+            19.6,
+            20.0
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 57.2,
+          "rank": 4,
+          "routine_scores": [
+            28.3,
+            28.9
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 37.4,
+          "rank": 4,
+          "routine_scores": [
+            18.8,
+            18.6
+          ]
+        }
+      ]
+    },
+    "111": {
+      "id": "111",
+      "name": "Skylah WOODROW",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.6,
+          "rank": 3,
+          "routine_scores": [
+            19.9,
+            19.7
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 54.5,
+          "rank": 10,
+          "routine_scores": [
+            27.8,
+            26.7
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 37.9,
+          "rank": 1,
+          "routine_scores": [
+            18.9,
+            19.0
+          ]
+        }
+      ]
+    },
+    "20": {
+      "id": "20",
+      "name": "Amelia CHATFIELD",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 0.0,
+          "rank": 20,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 0.0,
+          "rank": 19,
+          "routine_scores": []
+        },
+        {
+          "competition_id": "35",
+          "competition_title": "Level 3 TUM Female",
+          "total_score": 0.0,
+          "rank": 9,
+          "routine_scores": []
+        }
+      ]
+    },
+    "30": {
+      "id": "30",
+      "name": "Lacey GALLACHER",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 36.4,
+          "rank": 2,
+          "routine_scores": [
+            18.3,
+            18.1
+          ]
+        },
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 38.6,
+          "rank": 14,
+          "routine_scores": [
+            19.0,
+            19.6
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 46.8,
+          "rank": 17,
+          "routine_scores": [
+            27.9,
+            18.9
+          ]
+        }
+      ]
+    },
+    "42": {
+      "id": "42",
+      "name": "Charlotte BRAVEY",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.2,
+          "rank": 8,
+          "routine_scores": [
+            19.6,
+            19.6
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 55.1,
+          "rank": 9,
+          "routine_scores": [
+            27.7,
+            27.4
+          ]
+        }
+      ]
+    },
+    "49": {
+      "id": "49",
+      "name": "Isla DAVIES",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 36.9,
+          "rank": 18,
+          "routine_scores": [
+            17.7,
+            19.2
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 56.1,
+          "rank": 5,
+          "routine_scores": [
+            28.2,
+            27.9
+          ]
+        }
+      ]
+    },
+    "57": {
+      "id": "57",
+      "name": "Sophie EUSTACE",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 38.4,
+          "rank": 15,
+          "routine_scores": [
+            19.7,
+            18.7
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 50.6,
+          "rank": 15,
+          "routine_scores": [
+            26.9,
+            23.7
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 15.0,
+          "rank": 15,
+          "routine_scores": [
+            0.0,
+            15.0
+          ]
+        }
+      ]
+    },
+    "63": {
+      "id": "63",
+      "name": "Heidi FARMER",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.0,
+          "rank": 11,
+          "routine_scores": [
+            19.6,
+            19.4
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 57.5,
+          "rank": 1,
+          "routine_scores": [
+            28.2,
+            29.3
+          ]
+        }
+      ]
+    },
+    "7": {
+      "id": "7",
+      "name": "Aria BONNEY",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.2,
+          "rank": 9,
+          "routine_scores": [
+            19.5,
+            19.7
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 55.6,
+          "rank": 7,
+          "routine_scores": [
+            28.5,
+            27.1
+          ]
+        }
+      ]
+    },
+    "70": {
+      "id": "70",
+      "name": "Hollie PEARCE",
+      "club": "Redland City Gymsports",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.2,
+          "rank": 7,
+          "routine_scores": [
+            19.9,
+            19.3
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 57.4,
+          "rank": 3,
+          "routine_scores": [
+            28.6,
+            28.8
+          ]
+        }
+      ]
+    },
+    "77": {
+      "id": "77",
+      "name": "Libby BRODSKY",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 38.8,
+          "rank": 13,
+          "routine_scores": [
+            19.7,
+            19.1
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 54.5,
+          "rank": 12,
+          "routine_scores": [
+            27.0,
+            27.5
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 13.4,
+          "rank": 16,
+          "routine_scores": [
+            0.0,
+            13.4
+          ]
+        }
+      ]
+    },
+    "83": {
+      "id": "83",
+      "name": "Claire CHAMPION",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.4,
+          "rank": 5,
+          "routine_scores": [
+            19.3,
+            20.1
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 37.9,
+          "rank": 18,
+          "routine_scores": [
+            11.5,
+            26.4
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 36.9,
+          "rank": 6,
+          "routine_scores": [
+            18.6,
+            18.3
+          ]
+        }
+      ]
+    },
+    "88": {
+      "id": "88",
+      "name": "Tara DOODNEY",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 40.0,
+          "rank": 1,
+          "routine_scores": [
+            19.9,
+            20.1
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 57.5,
+          "rank": 2,
+          "routine_scores": [
+            28.7,
+            28.8
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 37.5,
+          "rank": 2,
+          "routine_scores": [
+            18.7,
+            18.8
+          ]
+        }
+      ]
+    },
+    "93": {
+      "id": "93",
+      "name": "Rubaiyat KHERHA",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.0,
+          "rank": 10,
+          "routine_scores": [
+            19.5,
+            19.5
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 51.8,
+          "rank": 14,
+          "routine_scores": [
+            25.1,
+            26.7
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 36.1,
+          "rank": 9,
+          "routine_scores": [
+            18.3,
+            17.8
+          ]
+        }
+      ]
+    },
+    "97": {
+      "id": "97",
+      "name": "Mckayla KRUGER",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 39.4,
+          "rank": 6,
+          "routine_scores": [
+            19.5,
+            19.9
+          ]
+        },
+        {
+          "competition_id": "9",
+          "competition_title": "Level 2A TRP Female",
+          "total_score": 55.9,
+          "rank": 6,
+          "routine_scores": [
+            28.0,
+            27.9
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 18.7,
+          "rank": 11,
+          "routine_scores": [
+            0.0,
+            18.7
+          ]
+        }
+      ]
+    },
+    "187": {
+      "id": "187",
+      "name": "Grace BEARDSLEY",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "21",
+          "competition_title": "Level 2A DMT Female",
+          "total_score": 37.9,
+          "rank": 16,
+          "routine_scores": [
+            19.4,
+            18.5
+          ]
+        },
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 36.4,
+          "rank": 8,
+          "routine_scores": [
+            18.4,
+            18.0
+          ]
+        }
+      ]
+    },
+    "241": {
+      "id": "241",
+      "name": "Cooper SCHULER",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "32",
+          "competition_title": "Level 2A TUM Male",
+          "total_score": 0.0,
+          "rank": 4,
+          "routine_scores": []
+        }
+      ]
+    },
+    "233": {
+      "id": "233",
+      "name": "Savannah BARNA",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "35",
+          "competition_title": "Level 3 TUM Female",
+          "total_score": 34.0,
+          "rank": 7,
+          "routine_scores": [
+            19.0,
+            15.0
+          ]
+        }
+      ]
+    },
+    "251": {
+      "id": "251",
+      "name": "Mei LEDERHOSE",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "35",
+          "competition_title": "Level 3 TUM Female",
+          "total_score": 33.3,
+          "rank": 8,
+          "routine_scores": [
+            18.5,
+            14.8
+          ]
+        }
+      ]
+    },
+    "257": {
+      "id": "257",
+      "name": "Livia PROCOPIS",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "35",
+          "competition_title": "Level 3 TUM Female",
+          "total_score": 36.7,
+          "rank": 3,
+          "routine_scores": [
+            18.8,
+            17.9
+          ]
+        }
+      ]
+    },
+    "264": {
+      "id": "264",
+      "name": "Shani RUSTEAU",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "35",
+          "competition_title": "Level 3 TUM Female",
+          "total_score": 36.0,
+          "rank": 4,
+          "routine_scores": [
+            18.1,
+            17.9
+          ]
+        }
+      ]
+    },
+    "270": {
+      "id": "270",
+      "name": "Ginger TAYLOR",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "35",
+          "competition_title": "Level 3 TUM Female",
+          "total_score": 35.8,
+          "rank": 5,
+          "routine_scores": [
+            18.2,
+            17.6
+          ]
+        }
+      ]
+    },
+    "275": {
+      "id": "275",
+      "name": "Elle VILLAZON",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "35",
+          "competition_title": "Level 3 TUM Female",
+          "total_score": 37.8,
+          "rank": 2,
+          "routine_scores": [
+            18.9,
+            18.9
+          ]
+        }
+      ]
+    },
+    "267": {
+      "id": "267",
+      "name": "Lily HARGREAVES",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 36.3,
+          "rank": 4,
+          "routine_scores": [
+            18.2,
+            18.1
+          ]
+        }
+      ]
+    },
+    "273": {
+      "id": "273",
+      "name": "Maia KING",
+      "club": "PCYC Queensland",
+      "results": [
+        {
+          "competition_id": "31",
+          "competition_title": "Level 2 TUM Female",
+          "total_score": 17.3,
+          "rank": 16,
+          "routine_scores": [
+            17.3,
+            0.0
+          ]
+        }
+      ]
+    },
+    "271": {
+      "id": "271",
+      "name": "Mattisse JOHNS",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "25",
+          "competition_title": "Level 1_8U TUM Female",
+          "total_score": 38.5,
+          "rank": 4,
+          "routine_scores": [
+            19.5,
+            19.0
+          ]
+        }
+      ]
+    },
+    "231": {
+      "id": "231",
+      "name": "Lily DEVITT",
+      "club": "Robertson Gymnastics Club",
+      "results": [
+        {
+          "competition_id": "33",
+          "competition_title": "Level 2A TUM Female",
+          "total_score": 37.3,
+          "rank": 5,
+          "routine_scores": [
+            18.5,
+            18.8
+          ]
+        }
+      ]
+    }
+  }
+}
