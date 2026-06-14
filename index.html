@@ -36,11 +36,8 @@
         </div>
         <div>
           <h1 class="text-xl font-bold tracking-tight text-white">Sporttech <span class="text-purple-400">Results Hub</span></h1>
-          <p class="text-xs text-gray-400">Local Analytics & Statistics Viewer</p>
+          <p class="text-sm text-gray-400">Local Analytics & Statistics Viewer</p>
         </div>
-      </div>
-      <div class="text-xs text-gray-400 bg-gray-900 px-3 py-1.5 rounded-full border border-gray-700">
-        <i class="fa-solid fa-clock mr-1 text-purple-400"></i> Local Server Active
       </div>
     </div>
   </header>
@@ -146,7 +143,7 @@
         <div class="bg-gray-800 rounded-xl border border-gray-700 shadow-lg overflow-hidden">
           <div class="overflow-x-auto">
             <table class="w-full text-left text-sm text-gray-300">
-              <thead class="bg-gray-900 text-xs text-gray-400 uppercase tracking-wider border-b border-gray-700 select-none">
+              <thead class="bg-gray-900 text-sm text-gray-400 uppercase tracking-wider border-b border-gray-700 select-none">
                 <tr>
                   <th scope="col" class="px-6 py-4 font-bold text-purple-400 cursor-pointer hover:bg-gray-850" onclick="sortTable('viewCompTable', 0)">Rank <i class="fa-solid fa-sort ml-1"></i></th>
                   <th scope="col" class="px-6 py-4 font-bold cursor-pointer hover:bg-gray-850" onclick="sortTable('viewCompTable', 1)">Athlete Name <i class="fa-solid fa-sort ml-1"></i></th>
@@ -210,7 +207,7 @@
           <div class="bg-gray-800 rounded-xl border border-gray-700 shadow-lg overflow-hidden">
             <div class="overflow-x-auto">
               <table id="viewAthleteTable" class="w-full text-left text-sm text-gray-300">
-                <thead class="bg-gray-900 text-xs text-gray-400 uppercase tracking-wider border-b border-gray-700 select-none">
+                <thead class="bg-gray-900 text-sm text-gray-400 uppercase tracking-wider border-b border-gray-700 select-none">
                   <tr>
                     <th scope="col" class="px-6 py-4 font-bold cursor-pointer hover:bg-gray-850" onclick="sortTable('viewAthleteTable', 0)">Event / Tournament <i class="fa-solid fa-sort ml-1"></i></th>
                     <th scope="col" class="px-6 py-4 font-bold cursor-pointer hover:bg-gray-850" onclick="sortTable('viewAthleteTable', 1)">Competition Division <i class="fa-solid fa-sort ml-1"></i></th>
@@ -427,8 +424,8 @@
           row.className = "hover:bg-gray-700/30 transition-colors";
           
           const routinesStr = res.routine_scores.length > 0 
-            ? res.routine_scores.map(s => `<span class="bg-gray-900 border border-gray-700 px-2 py-0.5 rounded text-xs font-mono font-medium">${s.toFixed(3)}</span>`).join(' ')
-            : '<span class="text-gray-500 italic text-xs">N/A</span>';
+            ? res.routine_scores.map(s => `<span class="bg-gray-900 border border-gray-700 px-2 py-0.5 rounded text-sm font-mono font-medium">${s.toFixed(3)}</span>`).join(' ')
+            : '<span class="text-gray-500 italic text-sm">N/A</span>';
             
           row.innerHTML = `
             <td class="px-6 py-4 font-bold text-white">${res.rank}</td>
@@ -498,8 +495,8 @@
         row.className = "hover:bg-gray-700/30 transition-colors";
         
         const routinesStr = r.routine_scores.length > 0 
-          ? r.routine_scores.map(s => `<span class="bg-gray-900 border border-gray-700 px-2 py-0.5 rounded text-xs font-mono font-medium">${s.toFixed(3)}</span>`).join(' ')
-          : '<span class="text-gray-500 italic text-xs">N/A</span>';
+          ? r.routine_scores.map(s => `<span class="bg-gray-900 border border-gray-700 px-2 py-0.5 rounded text-sm font-mono font-medium">${s.toFixed(3)}</span>`).join(' ')
+          : '<span class="text-gray-500 italic text-sm">N/A</span>';
           
         row.innerHTML = `
           <td class="px-6 py-4 font-medium text-gray-400 text-xs">${r.event_title}</td>
