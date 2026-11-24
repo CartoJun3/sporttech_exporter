@@ -307,13 +307,25 @@
 
           // Populate Event selector
           eventSelect.innerHTML = '<option value="">-- Choose an Event --</option>';
-          loadedEvents.forEach(ev => {
-            const option = document.createElement('option');
-            option.value = ev.event_id;
-            const cleanDate = ev.date ? ev.date.split('T')[0] : 'N/A';
-            option.textContent = `${ev.title} (${cleanDate})`;
-            eventSelect.appendChild(option);
-          });
+          const sortedEvents = [...loadedEvents].sort((a, b) => {
+          const timeA = a.date ? new Date(a.date).getTime() : NaN;
+          const timeB = b.date ? new Date(b.date).getTime() : NaN;
+
+          // Push missing or unparseable dates to the bottom
+          if (Number.isNaN(timeA) && Number.isNaN(timeB)) return 0;
+          if (Number.isNaN(timeA)) return 1;
+          if (Number.isNaN(timeB)) return -1;
+
+          return timeA - timeB; // ascending (earliest first); swap to timeB - timeA for descending
+        });
+
+        sortedEvents.forEach(ev => {
+          const option = document.createElement('option');
+          option.value = ev.event_id;
+          const cleanDate = ev.date ? ev.date.split('T')[0] : 'N/A';
+          option.textContent = `${ev.title} (${cleanDate})`;
+          eventSelect.appendChild(option);
+        });
           
           // Preselect first event
           eventSelect.value = loadedEvents[0].event_id;
